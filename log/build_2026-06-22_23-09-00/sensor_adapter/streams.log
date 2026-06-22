@@ -1,0 +1,25 @@
+[0.962s] Invoking command in '/home/abhirup/slam_platform/slam_ws/src/sensor_adapter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/build/sensor_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sensor_adapter build --build-base /home/abhirup/slam_platform/build/sensor_adapter/build install --record /home/abhirup/slam_platform/build/sensor_adapter/install.log --single-version-externally-managed install_data
+[1.066s] running egg_info
+[1.072s] writing ../../../build/sensor_adapter/sensor_adapter.egg-info/PKG-INFO
+[1.072s] writing dependency_links to ../../../build/sensor_adapter/sensor_adapter.egg-info/dependency_links.txt
+[1.073s] writing entry points to ../../../build/sensor_adapter/sensor_adapter.egg-info/entry_points.txt
+[1.073s] writing requirements to ../../../build/sensor_adapter/sensor_adapter.egg-info/requires.txt
+[1.073s] writing top-level names to ../../../build/sensor_adapter/sensor_adapter.egg-info/top_level.txt
+[1.085s] reading manifest file '../../../build/sensor_adapter/sensor_adapter.egg-info/SOURCES.txt'
+[1.086s] writing manifest file '../../../build/sensor_adapter/sensor_adapter.egg-info/SOURCES.txt'
+[1.086s] running build
+[1.086s] running build_py
+[1.086s] running install
+[1.089s] running install_lib
+[1.095s] running install_data
+[1.095s] running install_egg_info
+[1.102s] removing '/home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter-0.0.0-py3.12.egg-info' (and everything under it)
+[1.103s] Copying ../../../build/sensor_adapter/sensor_adapter.egg-info to /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter-0.0.0-py3.12.egg-info
+[1.103s] running install_scripts
+[1.151s] Installing camera_adapter script to /home/abhirup/slam_platform/install/sensor_adapter/lib/sensor_adapter
+[1.151s] Installing camera_info_adapter script to /home/abhirup/slam_platform/install/sensor_adapter/lib/sensor_adapter
+[1.151s] Installing imu_adapter script to /home/abhirup/slam_platform/install/sensor_adapter/lib/sensor_adapter
+[1.152s] Installing lidar_adapter script to /home/abhirup/slam_platform/install/sensor_adapter/lib/sensor_adapter
+[1.152s] Installing odom_adapter script to /home/abhirup/slam_platform/install/sensor_adapter/lib/sensor_adapter
+[1.152s] writing list of installed files to '/home/abhirup/slam_platform/build/sensor_adapter/install.log'
+[1.165s] Invoked command in '/home/abhirup/slam_platform/slam_ws/src/sensor_adapter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/build/sensor_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sensor_adapter build --build-base /home/abhirup/slam_platform/build/sensor_adapter/build install --record /home/abhirup/slam_platform/build/sensor_adapter/install.log --single-version-externally-managed install_data

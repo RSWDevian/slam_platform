@@ -1,0 +1,22 @@
+[0.549s] Invoking command in '/home/abhirup/slam_platform/build/slam_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abhirup/slam_platform/build/slam_interfaces -- -j28 -l28
+[0.646s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.646s] -- Configuring incomplete, errors occurred!
+[0.646s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.646s]   By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH
+[0.646s]   this project has asked CMake to find a package configuration file provided
+[0.646s]   by "rosidl_default_generators", but CMake did not find one.
+[0.646s] 
+[0.646s]   Could not find a package configuration file provided by
+[0.646s]   "rosidl_default_generators" with any of the following names:
+[0.647s] 
+[0.647s]     rosidl_default_generatorsConfig.cmake
+[0.647s]     rosidl_default_generators-config.cmake
+[0.647s] 
+[0.647s]   Add the installation prefix of "rosidl_default_generators" to
+[0.647s]   CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory
+[0.647s]   containing one of the above files.  If "rosidl_default_generators" provides
+[0.647s]   a separate development package or SDK, be sure it has been installed.
+[0.647s] 
+[0.647s] [0m
+[0.647s] gmake: *** [Makefile:829: cmake_check_build_system] Error 1
+[0.736s] Invoked command in '/home/abhirup/slam_platform/build/slam_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abhirup/slam_platform/build/slam_interfaces -- -j28 -l28

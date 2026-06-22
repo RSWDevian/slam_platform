@@ -1,0 +1,1 @@
+/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_generator_rs/slam_interfaces/rust/src/msg.rs

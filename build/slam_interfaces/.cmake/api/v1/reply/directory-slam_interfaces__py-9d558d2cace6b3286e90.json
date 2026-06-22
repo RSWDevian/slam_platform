@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "slam_interfaces__py",
+		"source" : "/home/abhirup/slam_platform/build/slam_interfaces/slam_interfaces__py"
+	}
+}

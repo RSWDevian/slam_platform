@@ -315,6 +315,69 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/slam_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/slam_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_generator_type_description/slam_interfaces/msg/SLAMMetrics.json" "DESTINATION" "share/slam_interfaces/msg")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_generator_type_description/slam_interfaces/msg/SLAMMetrics.json" "DESTINATION" "share/slam_interfaces/msg")
+
+# install(DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_generator_c/slam_interfaces/" "DESTINATION" "include/slam_interfaces/slam_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_generator_c/slam_interfaces/" "DESTINATION" "include/slam_interfaces/slam_interfaces" "PATTERN" "*.h")
+
+# install(FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/slam_interfaces/environment")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/slam_interfaces/environment")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/slam_interfaces/environment")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/slam_interfaces/environment")
+
+# install(DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_typesupport_fastrtps_c/slam_interfaces/" "DESTINATION" "include/slam_interfaces/slam_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_typesupport_fastrtps_c/slam_interfaces/" "DESTINATION" "include/slam_interfaces/slam_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_typesupport_introspection_c/slam_interfaces/" "DESTINATION" "include/slam_interfaces/slam_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_typesupport_introspection_c/slam_interfaces/" "DESTINATION" "include/slam_interfaces/slam_interfaces" "PATTERN" "*.h")
+
+# install(DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_generator_cpp/slam_interfaces/" "DESTINATION" "include/slam_interfaces/slam_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_generator_cpp/slam_interfaces/" "DESTINATION" "include/slam_interfaces/slam_interfaces" "PATTERN" "*.hpp")
+
+# install(DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_typesupport_fastrtps_cpp/slam_interfaces/" "DESTINATION" "include/slam_interfaces/slam_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_typesupport_fastrtps_cpp/slam_interfaces/" "DESTINATION" "include/slam_interfaces/slam_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_typesupport_introspection_cpp/slam_interfaces/" "DESTINATION" "include/slam_interfaces/slam_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_typesupport_introspection_cpp/slam_interfaces/" "DESTINATION" "include/slam_interfaces/slam_interfaces" "PATTERN" "*.hpp")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/slam_interfaces/environment")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/slam_interfaces/environment")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/slam_interfaces/environment")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/slam_interfaces/environment")
+
+# install(DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_python/slam_interfaces/slam_interfaces.egg-info/" "DESTINATION" "lib/python3.12/site-packages/slam_interfaces-0.0.0-py3.12.egg-info")
+ament_cmake_symlink_install_directory("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_python/slam_interfaces/slam_interfaces.egg-info/" "DESTINATION" "lib/python3.12/site-packages/slam_interfaces-0.0.0-py3.12.egg-info")
+
+# install(DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_generator_py/slam_interfaces/" "DESTINATION" "lib/python3.12/site-packages/slam_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_generator_py/slam_interfaces/" "DESTINATION" "lib/python3.12/site-packages/slam_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
+# install("TARGETS" "slam_interfaces_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/slam_interfaces")
+include("/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "slam_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/slam_interfaces")
+include("/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "slam_interfaces_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/slam_interfaces")
+include("/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_index/share/ament_index/resource_index/rust_packages/slam_interfaces" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_index/share/ament_index/resource_index/rust_packages/slam_interfaces" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+
+# install(DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_generator_rs/slam_interfaces/rust" "DESTINATION" "share/slam_interfaces")
+ament_cmake_symlink_install_directory("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" DIRECTORY "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_generator_rs/slam_interfaces/rust" "DESTINATION" "share/slam_interfaces")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_adapter/slam_interfaces/msg/SLAMMetrics.idl" "DESTINATION" "share/slam_interfaces/msg")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_adapter/slam_interfaces/msg/SLAMMetrics.idl" "DESTINATION" "share/slam_interfaces/msg")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/src/slam_interfaces/msg/SLAMMetrics.msg" "DESTINATION" "share/slam_interfaces/msg")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/src/slam_interfaces/msg/SLAMMetrics.msg" "DESTINATION" "share/slam_interfaces/msg")
+
 # install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/slam_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/slam_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
@@ -350,6 +413,30 @@ ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_
 
 # install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/slam_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/slam_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+
+# install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_cmake/rosidl_cmake_aggregate_target-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_cmake/rosidl_cmake_aggregate_target-extras.cmake" "DESTINATION" "share/slam_interfaces/cmake")
 
 # install(FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_core/slam_interfacesConfig.cmake" "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_core/slam_interfacesConfig-version.cmake" "DESTINATION" "share/slam_interfaces/cmake")
 ament_cmake_symlink_install_files("/home/abhirup/slam_platform/slam_ws/src/slam_interfaces" FILES "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_core/slam_interfacesConfig.cmake" "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_core/slam_interfacesConfig-version.cmake" "DESTINATION" "share/slam_interfaces/cmake")

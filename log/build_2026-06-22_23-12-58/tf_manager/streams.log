@@ -1,0 +1,19 @@
+[0.994s] Invoking command in '/home/abhirup/slam_platform/slam_ws/src/tf_manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/build/tf_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/install/tf_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tf_manager build --build-base /home/abhirup/slam_platform/build/tf_manager/build install --record /home/abhirup/slam_platform/build/tf_manager/install.log --single-version-externally-managed install_data
+[1.102s] running egg_info
+[1.108s] writing ../../../build/tf_manager/tf_manager.egg-info/PKG-INFO
+[1.108s] writing dependency_links to ../../../build/tf_manager/tf_manager.egg-info/dependency_links.txt
+[1.108s] writing requirements to ../../../build/tf_manager/tf_manager.egg-info/requires.txt
+[1.108s] writing top-level names to ../../../build/tf_manager/tf_manager.egg-info/top_level.txt
+[1.121s] reading manifest file '../../../build/tf_manager/tf_manager.egg-info/SOURCES.txt'
+[1.122s] writing manifest file '../../../build/tf_manager/tf_manager.egg-info/SOURCES.txt'
+[1.122s] running build
+[1.122s] running build_py
+[1.122s] running install
+[1.125s] running install_lib
+[1.132s] running install_data
+[1.132s] running install_egg_info
+[1.139s] removing '/home/abhirup/slam_platform/install/tf_manager/lib/python3.12/site-packages/tf_manager-0.0.0-py3.12.egg-info' (and everything under it)
+[1.139s] Copying ../../../build/tf_manager/tf_manager.egg-info to /home/abhirup/slam_platform/install/tf_manager/lib/python3.12/site-packages/tf_manager-0.0.0-py3.12.egg-info
+[1.139s] running install_scripts
+[1.189s] writing list of installed files to '/home/abhirup/slam_platform/build/tf_manager/install.log'
+[1.204s] Invoked command in '/home/abhirup/slam_platform/slam_ws/src/tf_manager' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/build/tf_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/install/tf_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tf_manager build --build-base /home/abhirup/slam_platform/build/tf_manager/build install --record /home/abhirup/slam_platform/build/tf_manager/install.log --single-version-externally-managed install_data

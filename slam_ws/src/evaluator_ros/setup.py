@@ -28,6 +28,7 @@ setup(
             'pose_comparator = evaluator_ros.pose_comparator:main',
             'trajectory_evaluator = evaluator_ros.trajectory_evaluator:main',
             'resource_monitor = evaluator_ros.resource_monitor:main',
+            'metrics_publisher = evaluator_ros.metrics_publisher:main',
         ],
     },
 )

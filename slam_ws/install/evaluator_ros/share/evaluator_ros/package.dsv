@@ -4,6 +4,3 @@ source;share/evaluator_ros/hook/pythonpath.sh
 source;share/evaluator_ros/hook/ament_prefix_path.ps1
 source;share/evaluator_ros/hook/ament_prefix_path.dsv
 source;share/evaluator_ros/hook/ament_prefix_path.sh
-source;../../build/evaluator_ros/share/evaluator_ros/hook/pythonpath_develop.ps1
-source;../../build/evaluator_ros/share/evaluator_ros/hook/pythonpath_develop.dsv
-source;../../build/evaluator_ros/share/evaluator_ros/hook/pythonpath_develop.sh

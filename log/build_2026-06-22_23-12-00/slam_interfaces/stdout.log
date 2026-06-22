@@ -1,0 +1,33 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/abhirup/slam_platform/build/slam_interfaces
+[  2%] Built target slam_interfaces__rosidl_generator_type_description
+[  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_slam_interfaces
+[  8%] Built target slam_interfaces__cpp
+[ 22%] Built target slam_interfaces__rosidl_generator_c
+[ 31%] Built target slam_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 40%] Built target slam_interfaces__rosidl_typesupport_fastrtps_c
+[ 65%] Built target slam_interfaces__rosidl_typesupport_introspection_cpp
+[ 65%] Built target slam_interfaces__rosidl_typesupport_c
+[ 65%] Built target slam_interfaces__rosidl_typesupport_introspection_c
+[ 74%] Built target slam_interfaces__rosidl_typesupport_cpp
+running egg_info
+writing slam_interfaces.egg-info/PKG-INFO
+writing dependency_links to slam_interfaces.egg-info/dependency_links.txt
+writing top-level names to slam_interfaces.egg-info/top_level.txt
+reading manifest file 'slam_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'slam_interfaces.egg-info/SOURCES.txt'
+[ 74%] Built target ament_cmake_python_build_slam_interfaces_egg

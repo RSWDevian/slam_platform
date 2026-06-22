@@ -18,5 +18,10 @@ def generate_launch_description():
             package="evaluator_ros",
             executable="resource_monitor",
             output="screen"
-        )   
+        ),
+        Node(
+            package="evaluator_ros",
+            executable="metrics_publisher",
+            output="screen"
+        )
     ])

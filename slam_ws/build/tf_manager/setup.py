@@ -1,1 +1,0 @@
-/home/abhirup/slam_platform/slam_ws/src/tf_manager/setup.py

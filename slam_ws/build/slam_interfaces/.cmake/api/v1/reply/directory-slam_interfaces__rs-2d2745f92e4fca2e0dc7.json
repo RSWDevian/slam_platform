@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "slam_interfaces__rs",
+		"source" : "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/slam_interfaces__rs"
+	}
+}

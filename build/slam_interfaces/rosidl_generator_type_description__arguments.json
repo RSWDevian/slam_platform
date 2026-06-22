@@ -1,0 +1,11 @@
+{
+  "package_name": "slam_interfaces",
+  "output_dir": "/home/abhirup/slam_platform/build/slam_interfaces/rosidl_generator_type_description/slam_interfaces",
+  "idl_tuples": [
+    "/home/abhirup/slam_platform/build/slam_interfaces/rosidl_adapter/slam_interfaces:msg/SLAMMetrics.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

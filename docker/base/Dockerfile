@@ -38,7 +38,16 @@ http://packages.ros.org/ros2/ubuntu noble main" \
 
 RUN apt-get update && apt-get install -y \
     ros-jazzy-desktop \
-    ros-dev-tools
+    ros-dev-tools \
+    ros-jazzy-rosidl-default-generators \
+    ros-jazzy-ros2cli \
+    ros-jazzy-ros2interface \
+    ros-jazzy-ros2node \
+    ros-jazzy-ros2service \
+    ros-jazzy-ros2action \
+    ros-jazzy-ros2topic \
+    ros-jazzy-ros2param \
+    ros-jazzy-ros2doctor
 
 RUN rosdep init || true
 

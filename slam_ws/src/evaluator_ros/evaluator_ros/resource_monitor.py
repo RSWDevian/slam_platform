@@ -23,6 +23,12 @@ class ResourceMonitor(Node):
             10
         )
 
+        self.memory_pub = self.create_publisher(
+            Float64,
+            "/evaluation/memory_usage",
+            10
+        )
+
         self.thread_pub = self.create_publisher(
             Int32,
             "/evaluation/num_threads",
