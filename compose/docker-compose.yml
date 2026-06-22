@@ -1,0 +1,26 @@
+services:
+
+  slam-core:
+    build:
+      context: ..
+      dockerfile: docker/core/Dockerfile
+
+    volumes:
+      - ../workspace:/workspace
+
+    networks:
+      - slam_net
+
+  slam-gazebo:
+    build:
+      context: ..
+      dockerfile: docker/gazebo/Dockerfile
+
+    volumes:
+      - ../workspace:/workspace
+
+    networks:
+      - slam_net
+
+networks:
+  slam_net:

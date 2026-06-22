@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/evaluator_ros/evaluator_ros.egg-info/PKG-INFO
+../../build/evaluator_ros/evaluator_ros.egg-info/SOURCES.txt
+../../build/evaluator_ros/evaluator_ros.egg-info/dependency_links.txt
+../../build/evaluator_ros/evaluator_ros.egg-info/requires.txt
+../../build/evaluator_ros/evaluator_ros.egg-info/top_level.txt
+../../build/evaluator_ros/evaluator_ros.egg-info/zip-safe
+evaluator_ros/__init__.py
+evaluator_ros.egg-info/PKG-INFO
+evaluator_ros.egg-info/SOURCES.txt
+evaluator_ros.egg-info/dependency_links.txt
+evaluator_ros.egg-info/requires.txt
+evaluator_ros.egg-info/top_level.txt
+evaluator_ros.egg-info/zip-safe
+resource/evaluator_ros

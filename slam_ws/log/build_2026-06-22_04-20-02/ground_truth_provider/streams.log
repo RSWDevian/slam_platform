@@ -1,0 +1,19 @@
+[1.301s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/build --no-deps symlink_data
+[1.501s] running develop
+[1.608s] running egg_info
+[1.618s] writing ground_truth_provider.egg-info/PKG-INFO
+[1.618s] writing dependency_links to ground_truth_provider.egg-info/dependency_links.txt
+[1.618s] writing entry points to ground_truth_provider.egg-info/entry_points.txt
+[1.618s] writing requirements to ground_truth_provider.egg-info/requires.txt
+[1.618s] writing top-level names to ground_truth_provider.egg-info/top_level.txt
+[1.638s] reading manifest file 'ground_truth_provider.egg-info/SOURCES.txt'
+[1.639s] writing manifest file 'ground_truth_provider.egg-info/SOURCES.txt'
+[1.650s] running build_ext
+[1.650s] Creating /home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib/python3.12/site-packages/ground-truth-provider.egg-link (link to .)
+[1.650s] Installing path_provider script to /home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib/ground_truth_provider
+[1.650s] Installing pose_provider script to /home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib/ground_truth_provider
+[1.650s] 
+[1.651s] Installed /home/abhirup/slam_platform/slam_ws/build/ground_truth_provider
+[1.651s] running symlink_data
+[1.651s] symbolically linking /home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/launch/ground_truth_provider.launch.py -> /home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider/launch
+[1.675s] Invoked command in '/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/build --no-deps symlink_data

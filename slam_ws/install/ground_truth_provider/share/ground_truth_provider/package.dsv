@@ -1,0 +1,9 @@
+source;share/ground_truth_provider/hook/pythonpath.ps1
+source;share/ground_truth_provider/hook/pythonpath.dsv
+source;share/ground_truth_provider/hook/pythonpath.sh
+source;share/ground_truth_provider/hook/ament_prefix_path.ps1
+source;share/ground_truth_provider/hook/ament_prefix_path.dsv
+source;share/ground_truth_provider/hook/ament_prefix_path.sh
+source;../../build/ground_truth_provider/share/ground_truth_provider/hook/pythonpath_develop.ps1
+source;../../build/ground_truth_provider/share/ground_truth_provider/hook/pythonpath_develop.dsv
+source;../../build/ground_truth_provider/share/ground_truth_provider/hook/pythonpath_develop.sh

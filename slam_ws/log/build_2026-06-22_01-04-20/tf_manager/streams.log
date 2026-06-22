@@ -1,0 +1,15 @@
+[1.030s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/tf_manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/tf_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/tf_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/tf_manager/build --no-deps symlink_data
+[1.166s] running develop
+[1.236s] running egg_info
+[1.243s] writing tf_manager.egg-info/PKG-INFO
+[1.243s] writing dependency_links to tf_manager.egg-info/dependency_links.txt
+[1.243s] writing requirements to tf_manager.egg-info/requires.txt
+[1.243s] writing top-level names to tf_manager.egg-info/top_level.txt
+[1.256s] reading manifest file 'tf_manager.egg-info/SOURCES.txt'
+[1.257s] writing manifest file 'tf_manager.egg-info/SOURCES.txt'
+[1.264s] running build_ext
+[1.264s] Creating /home/abhirup/slam_platform/slam_ws/install/tf_manager/lib/python3.12/site-packages/tf-manager.egg-link (link to .)
+[1.264s] 
+[1.264s] Installed /home/abhirup/slam_platform/slam_ws/build/tf_manager
+[1.264s] running symlink_data
+[1.281s] Invoked command in '/home/abhirup/slam_platform/slam_ws/build/tf_manager' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/tf_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/tf_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/tf_manager/build --no-deps symlink_data

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating robot_bringup.egg-info
+writing robot_bringup.egg-info/PKG-INFO
+writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+writing requirements to robot_bringup.egg-info/requires.txt
+writing top-level names to robot_bringup.egg-info/top_level.txt
+writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abhirup/slam_platform/slam_ws/install/robot_bringup/lib/python3.12/site-packages/robot-bringup.egg-link (link to .)
+
+Installed /home/abhirup/slam_platform/slam_ws/build/robot_bringup
+running symlink_data
+creating /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/ament_index
+creating /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/ament_index/resource_index
+creating /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/abhirup/slam_platform/slam_ws/build/robot_bringup/resource/robot_bringup -> /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/abhirup/slam_platform/slam_ws/build/robot_bringup/package.xml -> /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup
+symbolically linking /home/abhirup/slam_platform/slam_ws/build/robot_bringup/launch/display_robot.launch.py -> /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup

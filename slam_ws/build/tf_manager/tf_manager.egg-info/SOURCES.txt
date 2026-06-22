@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/tf_manager/tf_manager.egg-info/PKG-INFO
+../../build/tf_manager/tf_manager.egg-info/SOURCES.txt
+../../build/tf_manager/tf_manager.egg-info/dependency_links.txt
+../../build/tf_manager/tf_manager.egg-info/requires.txt
+../../build/tf_manager/tf_manager.egg-info/top_level.txt
+../../build/tf_manager/tf_manager.egg-info/zip-safe
+resource/tf_manager
+tf_manager/__init__.py
+tf_manager.egg-info/PKG-INFO
+tf_manager.egg-info/SOURCES.txt
+tf_manager.egg-info/dependency_links.txt
+tf_manager.egg-info/requires.txt
+tf_manager.egg-info/top_level.txt
+tf_manager.egg-info/zip-safe

@@ -1,0 +1,48 @@
+running egg_info
+creating ../../../build/evaluator_ros/evaluator_ros.egg-info
+writing ../../../build/evaluator_ros/evaluator_ros.egg-info/PKG-INFO
+writing dependency_links to ../../../build/evaluator_ros/evaluator_ros.egg-info/dependency_links.txt
+writing entry points to ../../../build/evaluator_ros/evaluator_ros.egg-info/entry_points.txt
+writing requirements to ../../../build/evaluator_ros/evaluator_ros.egg-info/requires.txt
+writing top-level names to ../../../build/evaluator_ros/evaluator_ros.egg-info/top_level.txt
+writing manifest file '../../../build/evaluator_ros/evaluator_ros.egg-info/SOURCES.txt'
+reading manifest file '../../../build/evaluator_ros/evaluator_ros.egg-info/SOURCES.txt'
+writing manifest file '../../../build/evaluator_ros/evaluator_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abhirup/slam_platform/build/evaluator_ros/build
+creating /home/abhirup/slam_platform/build/evaluator_ros/build/lib
+creating /home/abhirup/slam_platform/build/evaluator_ros/build/lib/evaluator_ros
+copying evaluator_ros/pose_comparator.py -> /home/abhirup/slam_platform/build/evaluator_ros/build/lib/evaluator_ros
+copying evaluator_ros/__init__.py -> /home/abhirup/slam_platform/build/evaluator_ros/build/lib/evaluator_ros
+copying evaluator_ros/metrics_publisher.py -> /home/abhirup/slam_platform/build/evaluator_ros/build/lib/evaluator_ros
+copying evaluator_ros/resource_monitor.py -> /home/abhirup/slam_platform/build/evaluator_ros/build/lib/evaluator_ros
+copying evaluator_ros/trajectory_evaluator.py -> /home/abhirup/slam_platform/build/evaluator_ros/build/lib/evaluator_ros
+running install
+running install_lib
+creating /home/abhirup/slam_platform/install/evaluator_ros/lib/python3.12/site-packages/evaluator_ros
+copying /home/abhirup/slam_platform/build/evaluator_ros/build/lib/evaluator_ros/pose_comparator.py -> /home/abhirup/slam_platform/install/evaluator_ros/lib/python3.12/site-packages/evaluator_ros
+copying /home/abhirup/slam_platform/build/evaluator_ros/build/lib/evaluator_ros/__init__.py -> /home/abhirup/slam_platform/install/evaluator_ros/lib/python3.12/site-packages/evaluator_ros
+copying /home/abhirup/slam_platform/build/evaluator_ros/build/lib/evaluator_ros/metrics_publisher.py -> /home/abhirup/slam_platform/install/evaluator_ros/lib/python3.12/site-packages/evaluator_ros
+copying /home/abhirup/slam_platform/build/evaluator_ros/build/lib/evaluator_ros/resource_monitor.py -> /home/abhirup/slam_platform/install/evaluator_ros/lib/python3.12/site-packages/evaluator_ros
+copying /home/abhirup/slam_platform/build/evaluator_ros/build/lib/evaluator_ros/trajectory_evaluator.py -> /home/abhirup/slam_platform/install/evaluator_ros/lib/python3.12/site-packages/evaluator_ros
+byte-compiling /home/abhirup/slam_platform/install/evaluator_ros/lib/python3.12/site-packages/evaluator_ros/pose_comparator.py to pose_comparator.cpython-312.pyc
+byte-compiling /home/abhirup/slam_platform/install/evaluator_ros/lib/python3.12/site-packages/evaluator_ros/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/abhirup/slam_platform/install/evaluator_ros/lib/python3.12/site-packages/evaluator_ros/metrics_publisher.py to metrics_publisher.cpython-312.pyc
+byte-compiling /home/abhirup/slam_platform/install/evaluator_ros/lib/python3.12/site-packages/evaluator_ros/resource_monitor.py to resource_monitor.cpython-312.pyc
+byte-compiling /home/abhirup/slam_platform/install/evaluator_ros/lib/python3.12/site-packages/evaluator_ros/trajectory_evaluator.py to trajectory_evaluator.cpython-312.pyc
+running install_data
+creating /home/abhirup/slam_platform/install/evaluator_ros/share/ament_index
+creating /home/abhirup/slam_platform/install/evaluator_ros/share/ament_index/resource_index
+creating /home/abhirup/slam_platform/install/evaluator_ros/share/ament_index/resource_index/packages
+copying resource/evaluator_ros -> /home/abhirup/slam_platform/install/evaluator_ros/share/ament_index/resource_index/packages
+copying package.xml -> /home/abhirup/slam_platform/install/evaluator_ros/share/evaluator_ros
+creating /home/abhirup/slam_platform/install/evaluator_ros/share/evaluator_ros/launch
+copying launch/evaluator.launch.py -> /home/abhirup/slam_platform/install/evaluator_ros/share/evaluator_ros/launch
+running install_egg_info
+Copying ../../../build/evaluator_ros/evaluator_ros.egg-info to /home/abhirup/slam_platform/install/evaluator_ros/lib/python3.12/site-packages/evaluator_ros-0.0.0-py3.12.egg-info
+running install_scripts
+Installing pose_comparator script to /home/abhirup/slam_platform/install/evaluator_ros/lib/evaluator_ros
+Installing resource_monitor script to /home/abhirup/slam_platform/install/evaluator_ros/lib/evaluator_ros
+Installing trajectory_evaluator script to /home/abhirup/slam_platform/install/evaluator_ros/lib/evaluator_ros
+writing list of installed files to '/home/abhirup/slam_platform/build/evaluator_ros/install.log'

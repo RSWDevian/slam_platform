@@ -1,0 +1,32 @@
+[1.073s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/world_manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/world_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/world_manager/build
+[1.248s] running develop
+[1.320s] Removing /home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages/world-manager.egg-link (link to .)
+[1.338s] Invoked command in '/home/abhirup/slam_platform/slam_ws/build/world_manager' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/world_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/world_manager/build
+[1.339s] Invoking command in '/home/abhirup/slam_platform/slam_ws/src/world_manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/world_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/world_manager build --build-base /home/abhirup/slam_platform/slam_ws/build/world_manager/build install --record /home/abhirup/slam_platform/slam_ws/build/world_manager/install.log --single-version-externally-managed install_data --force
+[1.449s] running egg_info
+[1.456s] writing ../../build/world_manager/world_manager.egg-info/PKG-INFO
+[1.456s] writing dependency_links to ../../build/world_manager/world_manager.egg-info/dependency_links.txt
+[1.456s] writing requirements to ../../build/world_manager/world_manager.egg-info/requires.txt
+[1.456s] writing top-level names to ../../build/world_manager/world_manager.egg-info/top_level.txt
+[1.470s] reading manifest file '../../build/world_manager/world_manager.egg-info/SOURCES.txt'
+[1.470s] writing manifest file '../../build/world_manager/world_manager.egg-info/SOURCES.txt'
+[1.470s] running build
+[1.471s] running build_py
+[1.471s] creating /home/abhirup/slam_platform/slam_ws/build/world_manager/build
+[1.471s] creating /home/abhirup/slam_platform/slam_ws/build/world_manager/build/lib
+[1.471s] creating /home/abhirup/slam_platform/slam_ws/build/world_manager/build/lib/world_manager
+[1.471s] copying world_manager/__init__.py -> /home/abhirup/slam_platform/slam_ws/build/world_manager/build/lib/world_manager
+[1.471s] running install
+[1.474s] running install_lib
+[1.481s] creating /home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages/world_manager
+[1.481s] copying /home/abhirup/slam_platform/slam_ws/build/world_manager/build/lib/world_manager/__init__.py -> /home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages/world_manager
+[1.481s] byte-compiling /home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages/world_manager/__init__.py to __init__.cpython-312.pyc
+[1.481s] running install_data
+[1.481s] copying resource/world_manager -> /home/abhirup/slam_platform/slam_ws/install/world_manager/share/ament_index/resource_index/packages
+[1.481s] copying package.xml -> /home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager
+[1.481s] copying launch/test_world.launch.py -> /home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager
+[1.481s] running install_egg_info
+[1.489s] Copying ../../build/world_manager/world_manager.egg-info to /home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages/world_manager-0.0.0-py3.12.egg-info
+[1.489s] running install_scripts
+[1.542s] writing list of installed files to '/home/abhirup/slam_platform/slam_ws/build/world_manager/install.log'
+[1.557s] Invoked command in '/home/abhirup/slam_platform/slam_ws/src/world_manager' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/world_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/world_manager build --build-base /home/abhirup/slam_platform/slam_ws/build/world_manager/build install --record /home/abhirup/slam_platform/slam_ws/build/world_manager/install.log --single-version-externally-managed install_data --force

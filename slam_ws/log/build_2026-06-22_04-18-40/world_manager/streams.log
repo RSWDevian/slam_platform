@@ -1,0 +1,15 @@
+[1.315s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/world_manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/world_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/world_manager/build --no-deps symlink_data
+[1.516s] running develop
+[1.624s] running egg_info
+[1.634s] writing world_manager.egg-info/PKG-INFO
+[1.634s] writing dependency_links to world_manager.egg-info/dependency_links.txt
+[1.634s] writing requirements to world_manager.egg-info/requires.txt
+[1.634s] writing top-level names to world_manager.egg-info/top_level.txt
+[1.655s] reading manifest file 'world_manager.egg-info/SOURCES.txt'
+[1.656s] writing manifest file 'world_manager.egg-info/SOURCES.txt'
+[1.667s] running build_ext
+[1.667s] Creating /home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages/world-manager.egg-link (link to .)
+[1.667s] 
+[1.667s] Installed /home/abhirup/slam_platform/slam_ws/build/world_manager
+[1.667s] running symlink_data
+[1.687s] Invoked command in '/home/abhirup/slam_platform/slam_ws/build/world_manager' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/world_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/world_manager/build --no-deps symlink_data

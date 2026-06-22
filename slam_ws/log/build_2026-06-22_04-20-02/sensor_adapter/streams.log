@@ -1,0 +1,23 @@
+[1.292s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/sensor_adapter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/sensor_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/sensor_adapter/build --no-deps symlink_data
+[1.517s] running develop
+[1.609s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for tf-manager [unknown version] (/home/abhirup/slam_platform/slam_ws/build/tf_manager)
+[1.609s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.626s] running egg_info
+[1.635s] writing sensor_adapter.egg-info/PKG-INFO
+[1.635s] writing dependency_links to sensor_adapter.egg-info/dependency_links.txt
+[1.635s] writing entry points to sensor_adapter.egg-info/entry_points.txt
+[1.636s] writing requirements to sensor_adapter.egg-info/requires.txt
+[1.636s] writing top-level names to sensor_adapter.egg-info/top_level.txt
+[1.657s] reading manifest file 'sensor_adapter.egg-info/SOURCES.txt'
+[1.657s] writing manifest file 'sensor_adapter.egg-info/SOURCES.txt'
+[1.669s] running build_ext
+[1.669s] Creating /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/python3.12/site-packages/sensor-adapter.egg-link (link to .)
+[1.669s] Installing camera_adapter script to /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/sensor_adapter
+[1.669s] Installing camera_info_adapter script to /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/sensor_adapter
+[1.669s] Installing imu_adapter script to /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/sensor_adapter
+[1.669s] Installing lidar_adapter script to /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/sensor_adapter
+[1.669s] Installing odom_adapter script to /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/sensor_adapter
+[1.669s] 
+[1.669s] Installed /home/abhirup/slam_platform/slam_ws/build/sensor_adapter
+[1.669s] running symlink_data
+[1.689s] Invoked command in '/home/abhirup/slam_platform/slam_ws/build/sensor_adapter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/sensor_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/sensor_adapter/build --no-deps symlink_data

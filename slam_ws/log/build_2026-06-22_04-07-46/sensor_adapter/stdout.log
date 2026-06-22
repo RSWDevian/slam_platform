@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing sensor_adapter.egg-info/PKG-INFO
+writing dependency_links to sensor_adapter.egg-info/dependency_links.txt
+writing entry points to sensor_adapter.egg-info/entry_points.txt
+writing requirements to sensor_adapter.egg-info/requires.txt
+writing top-level names to sensor_adapter.egg-info/top_level.txt
+reading manifest file 'sensor_adapter.egg-info/SOURCES.txt'
+writing manifest file 'sensor_adapter.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/python3.12/site-packages/sensor-adapter.egg-link (link to .)
+Installing camera_adapter script to /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/sensor_adapter
+Installing camera_info_adapter script to /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/sensor_adapter
+Installing imu_adapter script to /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/sensor_adapter
+Installing lidar_adapter script to /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/sensor_adapter
+Installing odom_adapter script to /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/sensor_adapter
+
+Installed /home/abhirup/slam_platform/slam_ws/build/sensor_adapter
+running symlink_data

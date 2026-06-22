@@ -1,0 +1,27 @@
+running develop
+Removing /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/lib/python3.12/site-packages/groung-truth-provider.egg-link (link to .)
+running egg_info
+writing ../../build/groung_truth_provider/groung_truth_provider.egg-info/PKG-INFO
+writing dependency_links to ../../build/groung_truth_provider/groung_truth_provider.egg-info/dependency_links.txt
+writing requirements to ../../build/groung_truth_provider/groung_truth_provider.egg-info/requires.txt
+writing top-level names to ../../build/groung_truth_provider/groung_truth_provider.egg-info/top_level.txt
+reading manifest file '../../build/groung_truth_provider/groung_truth_provider.egg-info/SOURCES.txt'
+writing manifest file '../../build/groung_truth_provider/groung_truth_provider.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/build
+creating /home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/build/lib
+creating /home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/build/lib/groung_truth_provider
+copying groung_truth_provider/__init__.py -> /home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/build/lib/groung_truth_provider
+running install
+running install_lib
+creating /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/lib/python3.12/site-packages/groung_truth_provider
+copying /home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/build/lib/groung_truth_provider/__init__.py -> /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/lib/python3.12/site-packages/groung_truth_provider
+byte-compiling /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/lib/python3.12/site-packages/groung_truth_provider/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/groung_truth_provider -> /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/share/ament_index/resource_index/packages
+copying package.xml -> /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/share/groung_truth_provider
+running install_egg_info
+Copying ../../build/groung_truth_provider/groung_truth_provider.egg-info to /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/lib/python3.12/site-packages/groung_truth_provider-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/install.log'

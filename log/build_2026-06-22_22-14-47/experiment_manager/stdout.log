@@ -1,0 +1,30 @@
+running egg_info
+creating ../../../build/experiment_manager/experiment_manager.egg-info
+writing ../../../build/experiment_manager/experiment_manager.egg-info/PKG-INFO
+writing dependency_links to ../../../build/experiment_manager/experiment_manager.egg-info/dependency_links.txt
+writing requirements to ../../../build/experiment_manager/experiment_manager.egg-info/requires.txt
+writing top-level names to ../../../build/experiment_manager/experiment_manager.egg-info/top_level.txt
+writing manifest file '../../../build/experiment_manager/experiment_manager.egg-info/SOURCES.txt'
+reading manifest file '../../../build/experiment_manager/experiment_manager.egg-info/SOURCES.txt'
+writing manifest file '../../../build/experiment_manager/experiment_manager.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abhirup/slam_platform/build/experiment_manager/build
+creating /home/abhirup/slam_platform/build/experiment_manager/build/lib
+creating /home/abhirup/slam_platform/build/experiment_manager/build/lib/experiment_manager
+copying experiment_manager/__init__.py -> /home/abhirup/slam_platform/build/experiment_manager/build/lib/experiment_manager
+running install
+running install_lib
+creating /home/abhirup/slam_platform/install/experiment_manager/lib/python3.12/site-packages/experiment_manager
+copying /home/abhirup/slam_platform/build/experiment_manager/build/lib/experiment_manager/__init__.py -> /home/abhirup/slam_platform/install/experiment_manager/lib/python3.12/site-packages/experiment_manager
+byte-compiling /home/abhirup/slam_platform/install/experiment_manager/lib/python3.12/site-packages/experiment_manager/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/abhirup/slam_platform/install/experiment_manager/share/ament_index
+creating /home/abhirup/slam_platform/install/experiment_manager/share/ament_index/resource_index
+creating /home/abhirup/slam_platform/install/experiment_manager/share/ament_index/resource_index/packages
+copying resource/experiment_manager -> /home/abhirup/slam_platform/install/experiment_manager/share/ament_index/resource_index/packages
+copying package.xml -> /home/abhirup/slam_platform/install/experiment_manager/share/experiment_manager
+running install_egg_info
+Copying ../../../build/experiment_manager/experiment_manager.egg-info to /home/abhirup/slam_platform/install/experiment_manager/lib/python3.12/site-packages/experiment_manager-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/abhirup/slam_platform/build/experiment_manager/install.log'

@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating ground_truth_provider.egg-info
+writing ground_truth_provider.egg-info/PKG-INFO
+writing dependency_links to ground_truth_provider.egg-info/dependency_links.txt
+writing entry points to ground_truth_provider.egg-info/entry_points.txt
+writing requirements to ground_truth_provider.egg-info/requires.txt
+writing top-level names to ground_truth_provider.egg-info/top_level.txt
+writing manifest file 'ground_truth_provider.egg-info/SOURCES.txt'
+reading manifest file 'ground_truth_provider.egg-info/SOURCES.txt'
+writing manifest file 'ground_truth_provider.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib/python3.12/site-packages/ground-truth-provider.egg-link (link to .)
+Installing path_provider script to /home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib/ground_truth_provider
+Installing pose_provider script to /home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib/ground_truth_provider
+
+Installed /home/abhirup/slam_platform/slam_ws/build/ground_truth_provider
+running symlink_data
+creating /home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ament_index
+creating /home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ament_index/resource_index
+creating /home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ament_index/resource_index/packages
+symbolically linking /home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/resource/ground_truth_provider -> /home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ament_index/resource_index/packages
+symbolically linking /home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/package.xml -> /home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider

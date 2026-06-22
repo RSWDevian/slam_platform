@@ -1,0 +1,1 @@
+/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/ament_cmake_environment_hooks/local_setup.sh

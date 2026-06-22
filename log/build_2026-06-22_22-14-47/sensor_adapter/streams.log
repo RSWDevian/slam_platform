@@ -1,0 +1,55 @@
+[1.080s] Invoking command in '/home/abhirup/slam_platform/slam_ws/src/sensor_adapter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/build/sensor_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sensor_adapter build --build-base /home/abhirup/slam_platform/build/sensor_adapter/build install --record /home/abhirup/slam_platform/build/sensor_adapter/install.log --single-version-externally-managed install_data
+[1.257s] running egg_info
+[1.257s] creating ../../../build/sensor_adapter/sensor_adapter.egg-info
+[1.264s] writing ../../../build/sensor_adapter/sensor_adapter.egg-info/PKG-INFO
+[1.264s] writing dependency_links to ../../../build/sensor_adapter/sensor_adapter.egg-info/dependency_links.txt
+[1.264s] writing entry points to ../../../build/sensor_adapter/sensor_adapter.egg-info/entry_points.txt
+[1.264s] writing requirements to ../../../build/sensor_adapter/sensor_adapter.egg-info/requires.txt
+[1.265s] writing top-level names to ../../../build/sensor_adapter/sensor_adapter.egg-info/top_level.txt
+[1.265s] writing manifest file '../../../build/sensor_adapter/sensor_adapter.egg-info/SOURCES.txt'
+[1.278s] reading manifest file '../../../build/sensor_adapter/sensor_adapter.egg-info/SOURCES.txt'
+[1.278s] writing manifest file '../../../build/sensor_adapter/sensor_adapter.egg-info/SOURCES.txt'
+[1.279s] running build
+[1.279s] running build_py
+[1.279s] creating /home/abhirup/slam_platform/build/sensor_adapter/build
+[1.279s] creating /home/abhirup/slam_platform/build/sensor_adapter/build/lib
+[1.279s] creating /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter
+[1.279s] copying sensor_adapter/odom_adapter.py -> /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter
+[1.279s] copying sensor_adapter/camera_info_adapter.py -> /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter
+[1.279s] copying sensor_adapter/imu_adapter.py -> /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter
+[1.279s] copying sensor_adapter/__init__.py -> /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter
+[1.279s] copying sensor_adapter/camera_adapter.py -> /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter
+[1.279s] copying sensor_adapter/lidar_adapter.py -> /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter
+[1.279s] running install
+[1.282s] running install_lib
+[1.289s] creating /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter
+[1.289s] copying /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter/odom_adapter.py -> /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter
+[1.289s] copying /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter/camera_info_adapter.py -> /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter
+[1.290s] copying /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter/imu_adapter.py -> /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter
+[1.290s] copying /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter/__init__.py -> /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter
+[1.290s] copying /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter/camera_adapter.py -> /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter
+[1.290s] copying /home/abhirup/slam_platform/build/sensor_adapter/build/lib/sensor_adapter/lidar_adapter.py -> /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter
+[1.290s] byte-compiling /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter/odom_adapter.py to odom_adapter.cpython-312.pyc
+[1.290s] byte-compiling /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter/camera_info_adapter.py to camera_info_adapter.cpython-312.pyc
+[1.291s] byte-compiling /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter/imu_adapter.py to imu_adapter.cpython-312.pyc
+[1.291s] byte-compiling /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter/__init__.py to __init__.cpython-312.pyc
+[1.291s] byte-compiling /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter/camera_adapter.py to camera_adapter.cpython-312.pyc
+[1.291s] byte-compiling /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter/lidar_adapter.py to lidar_adapter.cpython-312.pyc
+[1.291s] running install_data
+[1.291s] creating /home/abhirup/slam_platform/install/sensor_adapter/share/ament_index
+[1.291s] creating /home/abhirup/slam_platform/install/sensor_adapter/share/ament_index/resource_index
+[1.291s] creating /home/abhirup/slam_platform/install/sensor_adapter/share/ament_index/resource_index/packages
+[1.291s] copying resource/sensor_adapter -> /home/abhirup/slam_platform/install/sensor_adapter/share/ament_index/resource_index/packages
+[1.292s] copying package.xml -> /home/abhirup/slam_platform/install/sensor_adapter/share/sensor_adapter
+[1.292s] creating /home/abhirup/slam_platform/install/sensor_adapter/share/sensor_adapter/launch
+[1.292s] copying launch/sensor_adapter.launch.py -> /home/abhirup/slam_platform/install/sensor_adapter/share/sensor_adapter/launch
+[1.292s] running install_egg_info
+[1.297s] Copying ../../../build/sensor_adapter/sensor_adapter.egg-info to /home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages/sensor_adapter-0.0.0-py3.12.egg-info
+[1.298s] running install_scripts
+[1.347s] Installing camera_adapter script to /home/abhirup/slam_platform/install/sensor_adapter/lib/sensor_adapter
+[1.347s] Installing camera_info_adapter script to /home/abhirup/slam_platform/install/sensor_adapter/lib/sensor_adapter
+[1.347s] Installing imu_adapter script to /home/abhirup/slam_platform/install/sensor_adapter/lib/sensor_adapter
+[1.347s] Installing lidar_adapter script to /home/abhirup/slam_platform/install/sensor_adapter/lib/sensor_adapter
+[1.348s] Installing odom_adapter script to /home/abhirup/slam_platform/install/sensor_adapter/lib/sensor_adapter
+[1.348s] writing list of installed files to '/home/abhirup/slam_platform/build/sensor_adapter/install.log'
+[1.359s] Invoked command in '/home/abhirup/slam_platform/slam_ws/src/sensor_adapter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/build/sensor_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/install/sensor_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sensor_adapter build --build-base /home/abhirup/slam_platform/build/sensor_adapter/build install --record /home/abhirup/slam_platform/build/sensor_adapter/install.log --single-version-externally-managed install_data

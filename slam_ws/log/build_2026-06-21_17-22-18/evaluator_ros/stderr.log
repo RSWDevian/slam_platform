@@ -1,0 +1,2 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for groung-truth-provider 0.0.0 (/home/abhirup/slam_platform/slam_ws/build/groung_truth_provider)
+  self.local_index = Environment(self.shadow_path + sys.path)

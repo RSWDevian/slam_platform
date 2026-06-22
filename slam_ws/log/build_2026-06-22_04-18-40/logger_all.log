@@ -1,0 +1,748 @@
+[0.055s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.055s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=28, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71c0c5c78920>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71c0c5da1490>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71c0c5da1490>>)
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.076s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abhirup/slam_platform/slam_ws'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'ignore_ament_install'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extensions ['colcon_pkg']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'colcon_pkg'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extensions ['colcon_meta']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'colcon_meta'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extensions ['ros']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'ros'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extensions ['cmake', 'python']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'cmake'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'python'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extensions ['python_setup_py']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'python_setup_py'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extension 'ignore_ament_install'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extensions ['colcon_pkg']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extension 'colcon_pkg'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extensions ['colcon_meta']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extension 'colcon_meta'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extensions ['ros']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extension 'ros'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extensions ['cmake', 'python']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extension 'cmake'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extension 'python'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extensions ['python_setup_py']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/ackerman_robot) by extension 'python_setup_py'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extension 'ignore_ament_install'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extensions ['colcon_pkg']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extension 'colcon_pkg'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extensions ['colcon_meta']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extension 'colcon_meta'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extensions ['ros']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extension 'ros'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extensions ['cmake', 'python']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extension 'cmake'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extension 'python'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extensions ['python_setup_py']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot) by extension 'python_setup_py'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extension 'ignore_ament_install'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extensions ['colcon_pkg']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extension 'colcon_pkg'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extensions ['colcon_meta']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extension 'colcon_meta'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extensions ['ros']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extension 'ros'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extensions ['cmake', 'python']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extension 'cmake'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extension 'python'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extensions ['python_setup_py']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/config) by extension 'python_setup_py'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extension 'ignore_ament_install'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extensions ['colcon_pkg']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extension 'colcon_pkg'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extensions ['colcon_meta']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extension 'colcon_meta'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extensions ['ros']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extension 'ros'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extensions ['cmake', 'python']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extension 'cmake'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extension 'python'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extensions ['python_setup_py']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/meshes) by extension 'python_setup_py'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extension 'ignore_ament_install'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extensions ['colcon_pkg']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extension 'colcon_pkg'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extensions ['colcon_meta']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extension 'colcon_meta'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extensions ['ros']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extension 'ros'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extensions ['cmake', 'python']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extension 'cmake'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extension 'python'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extensions ['python_setup_py']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf) by extension 'python_setup_py'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf/build) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf/build) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf/build) ignored
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf/install) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf/install) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf/install) ignored
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf/log) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf/log) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(robots/differential_robot/urdf/log) ignored
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluator_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluator_ros) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluator_ros) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluator_ros) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluator_ros) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluator_ros) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluator_ros) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluator_ros) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluator_ros) by extension 'ros'
+[0.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/evaluator_ros' with type 'ros.ament_python' and name 'evaluator_ros'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_manager) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_manager) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_manager) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_manager) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_manager) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_manager) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_manager) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/experiment_manager) by extension 'ros'
+[0.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/experiment_manager' with type 'ros.ament_python' and name 'experiment_manager'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ground_truth_provider) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ground_truth_provider) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ground_truth_provider) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ground_truth_provider) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ground_truth_provider) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ground_truth_provider) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ground_truth_provider) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ground_truth_provider) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/ground_truth_provider) by extension 'ros'
+[0.097s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ground_truth_provider' with type 'ros.ament_python' and name 'ground_truth_provider'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[0.097s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_python' and name 'robot_bringup'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge_manager) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge_manager) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge_manager) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge_manager) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge_manager) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge_manager) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge_manager) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge_manager) by extension 'ros'
+[0.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz_bridge_manager' with type 'ros.ament_python' and name 'ros_gz_bridge_manager'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_adapter) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_adapter) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_adapter) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_adapter) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_adapter) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_adapter) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_adapter) by extensions ['ros']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_adapter) by extension 'ros'
+[0.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_adapter' with type 'ros.ament_python' and name 'sensor_adapter'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_interfaces) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_interfaces) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_interfaces) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_interfaces) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_interfaces) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_interfaces) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_interfaces) by extensions ['ros']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_interfaces) by extension 'ros'
+[0.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_interfaces' with type 'ros.ament_cmake' and name 'slam_interfaces'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_manager) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_manager) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_manager) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_manager) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_manager) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_manager) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_manager) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_manager) by extension 'ros'
+[0.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf_manager' with type 'ros.ament_python' and name 'tf_manager'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_manager) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_manager) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_manager) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_manager) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_manager) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_manager) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_manager) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_manager) by extension 'ros'
+[0.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/world_manager' with type 'ros.ament_python' and name 'world_manager'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/corridor) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/multiroom) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/office) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/test_world) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(worlds/warehouse) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.114s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/abhirup/slam_platform/slam_ws/install
+[0.115s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 194 installed packages in /opt/ros/jazzy
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'evaluator_ros' build argument 'cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'evaluator_ros' build argument 'cmake_target' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'evaluator_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'evaluator_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'evaluator_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'evaluator_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'evaluator_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'evaluator_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'evaluator_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.129s] DEBUG:colcon.colcon_core.verb:Building package 'evaluator_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abhirup/slam_platform/slam_ws/build/evaluator_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros', 'merge_install': False, 'path': '/home/abhirup/slam_platform/slam_ws/src/evaluator_ros', 'symlink_install': True, 'test_result_base': None}
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'experiment_manager' build argument 'cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'experiment_manager' build argument 'cmake_target' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'experiment_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'experiment_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'experiment_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'experiment_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'experiment_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'experiment_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'experiment_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.129s] DEBUG:colcon.colcon_core.verb:Building package 'experiment_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abhirup/slam_platform/slam_ws/build/experiment_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abhirup/slam_platform/slam_ws/install/experiment_manager', 'merge_install': False, 'path': '/home/abhirup/slam_platform/slam_ws/src/experiment_manager', 'symlink_install': True, 'test_result_base': None}
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'ground_truth_provider' build argument 'cmake_args' from command line to 'None'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'ground_truth_provider' build argument 'cmake_target' from command line to 'None'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'ground_truth_provider' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'ground_truth_provider' build argument 'cmake_clean_cache' from command line to 'False'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'ground_truth_provider' build argument 'cmake_clean_first' from command line to 'False'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'ground_truth_provider' build argument 'cmake_force_configure' from command line to 'False'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'ground_truth_provider' build argument 'ament_cmake_args' from command line to 'None'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'ground_truth_provider' build argument 'catkin_cmake_args' from command line to 'None'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'ground_truth_provider' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.130s] DEBUG:colcon.colcon_core.verb:Building package 'ground_truth_provider' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider', 'merge_install': False, 'path': '/home/abhirup/slam_platform/slam_ws/src/ground_truth_provider', 'symlink_install': True, 'test_result_base': None}
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.130s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abhirup/slam_platform/slam_ws/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abhirup/slam_platform/slam_ws/install/robot_bringup', 'merge_install': False, 'path': '/home/abhirup/slam_platform/slam_ws/src/robot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge_manager' build argument 'cmake_args' from command line to 'None'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge_manager' build argument 'cmake_target' from command line to 'None'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.131s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_bridge_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abhirup/slam_platform/slam_ws/build/ros_gz_bridge_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager', 'merge_install': False, 'path': '/home/abhirup/slam_platform/slam_ws/src/ros_gz_bridge_manager', 'symlink_install': True, 'test_result_base': None}
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'sensor_adapter' build argument 'cmake_args' from command line to 'None'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'sensor_adapter' build argument 'cmake_target' from command line to 'None'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'sensor_adapter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'sensor_adapter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'sensor_adapter' build argument 'cmake_clean_first' from command line to 'False'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'sensor_adapter' build argument 'cmake_force_configure' from command line to 'False'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'sensor_adapter' build argument 'ament_cmake_args' from command line to 'None'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'sensor_adapter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'sensor_adapter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.131s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_adapter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abhirup/slam_platform/slam_ws/build/sensor_adapter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter', 'merge_install': False, 'path': '/home/abhirup/slam_platform/slam_ws/src/sensor_adapter', 'symlink_install': True, 'test_result_base': None}
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'slam_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'slam_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'slam_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'slam_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'slam_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'slam_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'slam_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'slam_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.131s] Level 5:colcon.colcon_core.verb:set package 'slam_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.132s] DEBUG:colcon.colcon_core.verb:Building package 'slam_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abhirup/slam_platform/slam_ws/build/slam_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces', 'merge_install': False, 'path': '/home/abhirup/slam_platform/slam_ws/src/slam_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'tf_manager' build argument 'cmake_args' from command line to 'None'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'tf_manager' build argument 'cmake_target' from command line to 'None'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'tf_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'tf_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'tf_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'tf_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'tf_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'tf_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'tf_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.132s] DEBUG:colcon.colcon_core.verb:Building package 'tf_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abhirup/slam_platform/slam_ws/build/tf_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abhirup/slam_platform/slam_ws/install/tf_manager', 'merge_install': False, 'path': '/home/abhirup/slam_platform/slam_ws/src/tf_manager', 'symlink_install': True, 'test_result_base': None}
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'world_manager' build argument 'cmake_args' from command line to 'None'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'world_manager' build argument 'cmake_target' from command line to 'None'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'world_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'world_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'world_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'world_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'world_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'world_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.132s] Level 5:colcon.colcon_core.verb:set package 'world_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.132s] DEBUG:colcon.colcon_core.verb:Building package 'world_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abhirup/slam_platform/slam_ws/build/world_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abhirup/slam_platform/slam_ws/install/world_manager', 'merge_install': False, 'path': '/home/abhirup/slam_platform/slam_ws/src/world_manager', 'symlink_install': True, 'test_result_base': None}
+[0.132s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.133s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.133s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abhirup/slam_platform/slam_ws/src/evaluator_ros' with build type 'ament_python'
+[0.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('evaluator_ros', 'ament_prefix_path')
+[0.134s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/share/evaluator_ros/hook/ament_prefix_path.ps1'
+[0.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/share/evaluator_ros/hook/ament_prefix_path.dsv'
+[0.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/share/evaluator_ros/hook/ament_prefix_path.sh'
+[0.135s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.137s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abhirup/slam_platform/slam_ws/src/experiment_manager' with build type 'ament_python'
+[0.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('experiment_manager', 'ament_prefix_path')
+[0.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/experiment_manager/hook/ament_prefix_path.ps1'
+[0.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/experiment_manager/hook/ament_prefix_path.dsv'
+[0.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/experiment_manager/hook/ament_prefix_path.sh'
+[0.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.139s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abhirup/slam_platform/slam_ws/src/ground_truth_provider' with build type 'ament_python'
+[0.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('ground_truth_provider', 'ament_prefix_path')
+[0.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider/hook/ament_prefix_path.ps1'
+[0.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider/hook/ament_prefix_path.dsv'
+[0.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider/hook/ament_prefix_path.sh'
+[0.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.141s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abhirup/slam_platform/slam_ws/src/robot_bringup' with build type 'ament_python'
+[0.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'ament_prefix_path')
+[0.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.ps1'
+[0.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.dsv'
+[0.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.sh'
+[0.142s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.142s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.143s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abhirup/slam_platform/slam_ws/src/ros_gz_bridge_manager' with build type 'ament_python'
+[0.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_bridge_manager', 'ament_prefix_path')
+[0.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager/hook/ament_prefix_path.ps1'
+[0.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager/hook/ament_prefix_path.dsv'
+[0.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager/hook/ament_prefix_path.sh'
+[0.161s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.161s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.163s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abhirup/slam_platform/slam_ws/src/sensor_adapter' with build type 'ament_python'
+[0.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_adapter', 'ament_prefix_path')
+[0.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/share/sensor_adapter/hook/ament_prefix_path.ps1'
+[0.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/share/sensor_adapter/hook/ament_prefix_path.dsv'
+[0.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/share/sensor_adapter/hook/ament_prefix_path.sh'
+[0.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.165s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abhirup/slam_platform/slam_ws/src/slam_interfaces' with build type 'ament_cmake'
+[0.165s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abhirup/slam_platform/slam_ws/src/slam_interfaces'
+[0.165s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.165s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.166s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abhirup/slam_platform/slam_ws/src/tf_manager' with build type 'ament_python'
+[0.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_manager', 'ament_prefix_path')
+[0.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/tf_manager/share/tf_manager/hook/ament_prefix_path.ps1'
+[0.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/tf_manager/share/tf_manager/hook/ament_prefix_path.dsv'
+[0.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/tf_manager/share/tf_manager/hook/ament_prefix_path.sh'
+[0.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.168s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abhirup/slam_platform/slam_ws/src/world_manager' with build type 'ament_python'
+[0.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('world_manager', 'ament_prefix_path')
+[0.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager/hook/ament_prefix_path.ps1'
+[0.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager/hook/ament_prefix_path.dsv'
+[0.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager/hook/ament_prefix_path.sh'
+[0.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.284s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abhirup/slam_platform/slam_ws/src/evaluator_ros'
+[0.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.394s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abhirup/slam_platform/slam_ws/src/experiment_manager'
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.507s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abhirup/slam_platform/slam_ws/src/ground_truth_provider'
+[0.507s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.507s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.618s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abhirup/slam_platform/slam_ws/src/robot_bringup'
+[0.618s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.618s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.731s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abhirup/slam_platform/slam_ws/src/ros_gz_bridge_manager'
+[0.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.842s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abhirup/slam_platform/slam_ws/src/sensor_adapter'
+[0.842s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abhirup/slam_platform/slam_ws/build/slam_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhirup/slam_platform/slam_ws/install/world_manager:/home/abhirup/slam_platform/slam_ws/install/tf_manager:/home/abhirup/slam_platform/slam_ws/install/sensor_adapter:/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager:/home/abhirup/slam_platform/slam_ws/install/robot_bringup:/home/abhirup/slam_platform/slam_ws/install/groung_truth_provider:/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider:/home/abhirup/slam_platform/slam_ws/install/experiment_manager:/home/abhirup/slam_platform/slam_ws/install/evaluator_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abhirup/slam_platform/slam_ws/build/slam_interfaces -- -j28 -l28
+[0.963s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abhirup/slam_platform/slam_ws/src/tf_manager'
+[0.963s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.963s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.076s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abhirup/slam_platform/slam_ws/src/world_manager'
+[1.076s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.076s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abhirup/slam_platform/slam_ws/build/slam_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhirup/slam_platform/slam_ws/install/world_manager:/home/abhirup/slam_platform/slam_ws/install/tf_manager:/home/abhirup/slam_platform/slam_ws/install/sensor_adapter:/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager:/home/abhirup/slam_platform/slam_ws/install/robot_bringup:/home/abhirup/slam_platform/slam_ws/install/groung_truth_provider:/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider:/home/abhirup/slam_platform/slam_ws/install/experiment_manager:/home/abhirup/slam_platform/slam_ws/install/evaluator_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abhirup/slam_platform/slam_ws/build/slam_interfaces -- -j28 -l28
+[1.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abhirup/slam_platform/slam_ws/build/slam_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhirup/slam_platform/slam_ws/install/world_manager:/home/abhirup/slam_platform/slam_ws/install/tf_manager:/home/abhirup/slam_platform/slam_ws/install/sensor_adapter:/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager:/home/abhirup/slam_platform/slam_ws/install/robot_bringup:/home/abhirup/slam_platform/slam_ws/install/groung_truth_provider:/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider:/home/abhirup/slam_platform/slam_ws/install/experiment_manager:/home/abhirup/slam_platform/slam_ws/install/evaluator_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abhirup/slam_platform/slam_ws/build/slam_interfaces
+[1.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_interfaces)
+[1.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abhirup/slam_platform/slam_ws/build/slam_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhirup/slam_platform/slam_ws/install/world_manager:/home/abhirup/slam_platform/slam_ws/install/tf_manager:/home/abhirup/slam_platform/slam_ws/install/sensor_adapter:/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager:/home/abhirup/slam_platform/slam_ws/install/robot_bringup:/home/abhirup/slam_platform/slam_ws/install/groung_truth_provider:/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider:/home/abhirup/slam_platform/slam_ws/install/experiment_manager:/home/abhirup/slam_platform/slam_ws/install/evaluator_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abhirup/slam_platform/slam_ws/build/slam_interfaces
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces' for CMake module files
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces' for CMake config files
+[1.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_interfaces', 'cmake_prefix_path')
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/hook/cmake_prefix_path.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/hook/cmake_prefix_path.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/hook/cmake_prefix_path.sh'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/bin'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/lib/pkgconfig/slam_interfaces.pc'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/lib/python3.12/site-packages'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/bin'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/package.ps1'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/package.dsv'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/package.sh'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/package.bash'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/package.zsh'
+[1.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/colcon-core/packages/slam_interfaces)
+[1.113s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_interfaces)
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces' for CMake module files
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces' for CMake config files
+[1.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_interfaces', 'cmake_prefix_path')
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/hook/cmake_prefix_path.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/hook/cmake_prefix_path.dsv'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/hook/cmake_prefix_path.sh'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/bin'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/lib/pkgconfig/slam_interfaces.pc'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/lib/python3.12/site-packages'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/bin'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/package.ps1'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/package.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/package.sh'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/package.bash'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/package.zsh'
+[1.117s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/colcon-core/packages/slam_interfaces)
+[1.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abhirup/slam_platform/slam_ws/build/tf_manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/tf_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/tf_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/tf_manager/build --no-deps symlink_data
+[1.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abhirup/slam_platform/slam_ws/build/experiment_manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/experiment_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/experiment_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/experiment_manager/build --no-deps symlink_data
+[1.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abhirup/slam_platform/slam_ws/build/robot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/robot_bringup/build --no-deps symlink_data
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/build --no-deps symlink_data
+[1.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abhirup/slam_platform/slam_ws/build/ros_gz_bridge_manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/ros_gz_bridge_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/ros_gz_bridge_manager/build --no-deps symlink_data
+[1.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abhirup/slam_platform/slam_ws/build/world_manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/world_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/world_manager/build --no-deps symlink_data
+[1.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abhirup/slam_platform/slam_ws/build/sensor_adapter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/sensor_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/sensor_adapter/build --no-deps symlink_data
+[1.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abhirup/slam_platform/slam_ws/build/evaluator_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/evaluator_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/evaluator_ros/build --no-deps symlink_data
+[1.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('experiment_manager', 'pythonpath_develop')
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/experiment_manager/share/experiment_manager/hook/pythonpath_develop.ps1'
+[1.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abhirup/slam_platform/slam_ws/build/experiment_manager' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/experiment_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/experiment_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/experiment_manager/build --no-deps symlink_data
+[1.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/build/experiment_manager/share/experiment_manager/hook/pythonpath_develop.dsv'
+[1.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/experiment_manager/share/experiment_manager/hook/pythonpath_develop.sh'
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/experiment_manager' for CMake module files
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/experiment_manager' for CMake config files
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/lib'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/bin'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/lib/pkgconfig/experiment_manager.pc'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/lib/python3.12/site-packages'
+[1.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('experiment_manager', 'pythonpath')
+[1.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/experiment_manager/hook/pythonpath.ps1'
+[1.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/experiment_manager/hook/pythonpath.dsv'
+[1.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/experiment_manager/hook/pythonpath.sh'
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/bin'
+[1.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(experiment_manager)
+[1.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/experiment_manager/package.ps1'
+[1.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/experiment_manager/package.dsv'
+[1.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/experiment_manager/package.sh'
+[1.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/experiment_manager/package.bash'
+[1.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/experiment_manager/package.zsh'
+[1.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/colcon-core/packages/experiment_manager)
+[1.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'pythonpath_develop')
+[1.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/robot_bringup/share/robot_bringup/hook/pythonpath_develop.ps1'
+[1.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abhirup/slam_platform/slam_ws/build/robot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/robot_bringup/build --no-deps symlink_data
+[1.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/build/robot_bringup/share/robot_bringup/hook/pythonpath_develop.dsv'
+[1.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/robot_bringup/share/robot_bringup/hook/pythonpath_develop.sh'
+[1.822s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/robot_bringup' for CMake module files
+[1.822s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/robot_bringup' for CMake config files
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/lib'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/bin'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/lib/python3.12/site-packages'
+[1.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'pythonpath')
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.ps1'
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.dsv'
+[1.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.sh'
+[1.825s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/bin'
+[1.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[1.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup/package.ps1'
+[1.827s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup/package.dsv'
+[1.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup/package.sh'
+[1.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup/package.bash'
+[1.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup/package.zsh'
+[1.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[1.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_bridge_manager', 'pythonpath_develop')
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/ros_gz_bridge_manager/share/ros_gz_bridge_manager/hook/pythonpath_develop.ps1'
+[1.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abhirup/slam_platform/slam_ws/build/ros_gz_bridge_manager' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/ros_gz_bridge_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/ros_gz_bridge_manager/build --no-deps symlink_data
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/build/ros_gz_bridge_manager/share/ros_gz_bridge_manager/hook/pythonpath_develop.dsv'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/ros_gz_bridge_manager/share/ros_gz_bridge_manager/hook/pythonpath_develop.sh'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager' for CMake module files
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager' for CMake config files
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/lib'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/bin'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/lib/pkgconfig/ros_gz_bridge_manager.pc'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/lib/python3.12/site-packages'
+[1.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_bridge_manager', 'pythonpath')
+[1.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager/hook/pythonpath.ps1'
+[1.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager/hook/pythonpath.dsv'
+[1.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager/hook/pythonpath.sh'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/bin'
+[1.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_bridge_manager)
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager/package.ps1'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager/package.dsv'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager/package.sh'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager/package.bash'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager/package.zsh'
+[1.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abhirup/slam_platform/slam_ws/install/ros_gz_bridge_manager/share/colcon-core/packages/ros_gz_bridge_manager)
+[1.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('ground_truth_provider', 'pythonpath_develop')
+[1.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/share/ground_truth_provider/hook/pythonpath_develop.ps1'
+[1.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/build --no-deps symlink_data
+[1.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/share/ground_truth_provider/hook/pythonpath_develop.dsv'
+[1.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/share/ground_truth_provider/hook/pythonpath_develop.sh'
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider' for CMake module files
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider' for CMake config files
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib'
+[1.842s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/bin'
+[1.842s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib/pkgconfig/ground_truth_provider.pc'
+[1.842s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/lib/python3.12/site-packages'
+[1.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('ground_truth_provider', 'pythonpath')
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider/hook/pythonpath.ps1'
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider/hook/pythonpath.dsv'
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider/hook/pythonpath.sh'
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/bin'
+[1.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ground_truth_provider)
+[1.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider/package.ps1'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider/package.dsv'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider/package.sh'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider/package.bash'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/ground_truth_provider/package.zsh'
+[1.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abhirup/slam_platform/slam_ws/install/ground_truth_provider/share/colcon-core/packages/ground_truth_provider)
+[1.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_manager', 'pythonpath_develop')
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/tf_manager/share/tf_manager/hook/pythonpath_develop.ps1'
+[1.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abhirup/slam_platform/slam_ws/build/tf_manager' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/tf_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/tf_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/tf_manager/build --no-deps symlink_data
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/build/tf_manager/share/tf_manager/hook/pythonpath_develop.dsv'
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/tf_manager/share/tf_manager/hook/pythonpath_develop.sh'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/tf_manager' for CMake module files
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/tf_manager' for CMake config files
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/tf_manager/lib'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/tf_manager/bin'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/tf_manager/lib/pkgconfig/tf_manager.pc'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/tf_manager/lib/python3.12/site-packages'
+[1.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_manager', 'pythonpath')
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/tf_manager/share/tf_manager/hook/pythonpath.ps1'
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/tf_manager/share/tf_manager/hook/pythonpath.dsv'
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/tf_manager/share/tf_manager/hook/pythonpath.sh'
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/tf_manager/bin'
+[1.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf_manager)
+[1.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/tf_manager/share/tf_manager/package.ps1'
+[1.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abhirup/slam_platform/slam_ws/install/tf_manager/share/tf_manager/package.dsv'
+[1.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/tf_manager/share/tf_manager/package.sh'
+[1.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/tf_manager/share/tf_manager/package.bash'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/tf_manager/share/tf_manager/package.zsh'
+[1.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abhirup/slam_platform/slam_ws/install/tf_manager/share/colcon-core/packages/tf_manager)
+[1.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('world_manager', 'pythonpath_develop')
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/world_manager/share/world_manager/hook/pythonpath_develop.ps1'
+[1.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abhirup/slam_platform/slam_ws/build/world_manager' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/world_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/world_manager/build --no-deps symlink_data
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/build/world_manager/share/world_manager/hook/pythonpath_develop.dsv'
+[1.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/world_manager/share/world_manager/hook/pythonpath_develop.sh'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/world_manager' for CMake module files
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/world_manager' for CMake config files
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/world_manager/lib'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/world_manager/bin'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/world_manager/lib/pkgconfig/world_manager.pc'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/world_manager/lib/python3.12/site-packages'
+[1.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('world_manager', 'pythonpath')
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager/hook/pythonpath.ps1'
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager/hook/pythonpath.dsv'
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager/hook/pythonpath.sh'
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/world_manager/bin'
+[1.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(world_manager)
+[1.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager/package.ps1'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager/package.dsv'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager/package.sh'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager/package.bash'
+[1.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/world_manager/share/world_manager/package.zsh'
+[1.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abhirup/slam_platform/slam_ws/install/world_manager/share/colcon-core/packages/world_manager)
+[1.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('evaluator_ros', 'pythonpath_develop')
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/evaluator_ros/share/evaluator_ros/hook/pythonpath_develop.ps1'
+[1.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abhirup/slam_platform/slam_ws/build/evaluator_ros' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/evaluator_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/evaluator_ros/build --no-deps symlink_data
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/build/evaluator_ros/share/evaluator_ros/hook/pythonpath_develop.dsv'
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/evaluator_ros/share/evaluator_ros/hook/pythonpath_develop.sh'
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros' for CMake module files
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros' for CMake config files
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/lib'
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/bin'
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/lib/pkgconfig/evaluator_ros.pc'
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/lib/python3.12/site-packages'
+[1.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('evaluator_ros', 'pythonpath')
+[1.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/share/evaluator_ros/hook/pythonpath.ps1'
+[1.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/share/evaluator_ros/hook/pythonpath.dsv'
+[1.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/share/evaluator_ros/hook/pythonpath.sh'
+[1.905s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/bin'
+[1.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evaluator_ros)
+[1.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/share/evaluator_ros/package.ps1'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/share/evaluator_ros/package.dsv'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/share/evaluator_ros/package.sh'
+[1.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/share/evaluator_ros/package.bash'
+[1.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/share/evaluator_ros/package.zsh'
+[1.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abhirup/slam_platform/slam_ws/install/evaluator_ros/share/colcon-core/packages/evaluator_ros)
+[1.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_adapter', 'pythonpath_develop')
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/sensor_adapter/share/sensor_adapter/hook/pythonpath_develop.ps1'
+[1.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abhirup/slam_platform/slam_ws/build/sensor_adapter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/sensor_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/sensor_adapter/build --no-deps symlink_data
+[1.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/build/sensor_adapter/share/sensor_adapter/hook/pythonpath_develop.dsv'
+[1.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/build/sensor_adapter/share/sensor_adapter/hook/pythonpath_develop.sh'
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter' for CMake module files
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter' for CMake config files
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib'
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/bin'
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/pkgconfig/sensor_adapter.pc'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/python3.12/site-packages'
+[1.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_adapter', 'pythonpath')
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/share/sensor_adapter/hook/pythonpath.ps1'
+[1.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/share/sensor_adapter/hook/pythonpath.dsv'
+[1.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/share/sensor_adapter/hook/pythonpath.sh'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/bin'
+[1.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_adapter)
+[1.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/share/sensor_adapter/package.ps1'
+[1.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/share/sensor_adapter/package.dsv'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/share/sensor_adapter/package.sh'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/share/sensor_adapter/package.bash'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/share/sensor_adapter/package.zsh'
+[1.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/share/colcon-core/packages/sensor_adapter)
+[1.933s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.933s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.933s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.933s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.939s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.939s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.939s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.955s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.955s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abhirup/slam_platform/slam_ws/install/local_setup.ps1'
+[1.956s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abhirup/slam_platform/slam_ws/install/_local_setup_util_ps1.py'
+[1.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abhirup/slam_platform/slam_ws/install/setup.ps1'
+[1.957s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abhirup/slam_platform/slam_ws/install/local_setup.sh'
+[1.957s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abhirup/slam_platform/slam_ws/install/_local_setup_util_sh.py'
+[1.958s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abhirup/slam_platform/slam_ws/install/setup.sh'
+[1.958s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abhirup/slam_platform/slam_ws/install/local_setup.bash'
+[1.958s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abhirup/slam_platform/slam_ws/install/setup.bash'
+[1.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abhirup/slam_platform/slam_ws/install/local_setup.zsh'
+[1.959s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abhirup/slam_platform/slam_ws/install/setup.zsh'

@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/experiment_manager/experiment_manager.egg-info/PKG-INFO
+../../../build/experiment_manager/experiment_manager.egg-info/SOURCES.txt
+../../../build/experiment_manager/experiment_manager.egg-info/dependency_links.txt
+../../../build/experiment_manager/experiment_manager.egg-info/requires.txt
+../../../build/experiment_manager/experiment_manager.egg-info/top_level.txt
+../../../build/experiment_manager/experiment_manager.egg-info/zip-safe
+experiment_manager/__init__.py
+resource/experiment_manager
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

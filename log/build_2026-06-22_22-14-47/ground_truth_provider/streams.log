@@ -1,0 +1,46 @@
+[1.070s] Invoking command in '/home/abhirup/slam_platform/slam_ws/src/ground_truth_provider': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/build/ground_truth_provider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/install/ground_truth_provider/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ground_truth_provider build --build-base /home/abhirup/slam_platform/build/ground_truth_provider/build install --record /home/abhirup/slam_platform/build/ground_truth_provider/install.log --single-version-externally-managed install_data
+[1.217s] running egg_info
+[1.218s] creating ../../../build/ground_truth_provider/ground_truth_provider.egg-info
+[1.224s] writing ../../../build/ground_truth_provider/ground_truth_provider.egg-info/PKG-INFO
+[1.224s] writing dependency_links to ../../../build/ground_truth_provider/ground_truth_provider.egg-info/dependency_links.txt
+[1.224s] writing entry points to ../../../build/ground_truth_provider/ground_truth_provider.egg-info/entry_points.txt
+[1.225s] writing requirements to ../../../build/ground_truth_provider/ground_truth_provider.egg-info/requires.txt
+[1.225s] writing top-level names to ../../../build/ground_truth_provider/ground_truth_provider.egg-info/top_level.txt
+[1.225s] writing manifest file '../../../build/ground_truth_provider/ground_truth_provider.egg-info/SOURCES.txt'
+[1.238s] reading manifest file '../../../build/ground_truth_provider/ground_truth_provider.egg-info/SOURCES.txt'
+[1.238s] writing manifest file '../../../build/ground_truth_provider/ground_truth_provider.egg-info/SOURCES.txt'
+[1.238s] running build
+[1.238s] running build_py
+[1.238s] creating /home/abhirup/slam_platform/build/ground_truth_provider/build
+[1.238s] creating /home/abhirup/slam_platform/build/ground_truth_provider/build/lib
+[1.238s] creating /home/abhirup/slam_platform/build/ground_truth_provider/build/lib/ground_truth_provider
+[1.238s] copying ground_truth_provider/odom_provider.py -> /home/abhirup/slam_platform/build/ground_truth_provider/build/lib/ground_truth_provider
+[1.238s] copying ground_truth_provider/__init__.py -> /home/abhirup/slam_platform/build/ground_truth_provider/build/lib/ground_truth_provider
+[1.238s] copying ground_truth_provider/pose_provider.py -> /home/abhirup/slam_platform/build/ground_truth_provider/build/lib/ground_truth_provider
+[1.239s] copying ground_truth_provider/path_provider.py -> /home/abhirup/slam_platform/build/ground_truth_provider/build/lib/ground_truth_provider
+[1.239s] running install
+[1.241s] running install_lib
+[1.248s] creating /home/abhirup/slam_platform/install/ground_truth_provider/lib/python3.12/site-packages/ground_truth_provider
+[1.248s] copying /home/abhirup/slam_platform/build/ground_truth_provider/build/lib/ground_truth_provider/odom_provider.py -> /home/abhirup/slam_platform/install/ground_truth_provider/lib/python3.12/site-packages/ground_truth_provider
+[1.248s] copying /home/abhirup/slam_platform/build/ground_truth_provider/build/lib/ground_truth_provider/__init__.py -> /home/abhirup/slam_platform/install/ground_truth_provider/lib/python3.12/site-packages/ground_truth_provider
+[1.248s] copying /home/abhirup/slam_platform/build/ground_truth_provider/build/lib/ground_truth_provider/pose_provider.py -> /home/abhirup/slam_platform/install/ground_truth_provider/lib/python3.12/site-packages/ground_truth_provider
+[1.248s] copying /home/abhirup/slam_platform/build/ground_truth_provider/build/lib/ground_truth_provider/path_provider.py -> /home/abhirup/slam_platform/install/ground_truth_provider/lib/python3.12/site-packages/ground_truth_provider
+[1.248s] byte-compiling /home/abhirup/slam_platform/install/ground_truth_provider/lib/python3.12/site-packages/ground_truth_provider/odom_provider.py to odom_provider.cpython-312.pyc
+[1.248s] byte-compiling /home/abhirup/slam_platform/install/ground_truth_provider/lib/python3.12/site-packages/ground_truth_provider/__init__.py to __init__.cpython-312.pyc
+[1.248s] byte-compiling /home/abhirup/slam_platform/install/ground_truth_provider/lib/python3.12/site-packages/ground_truth_provider/pose_provider.py to pose_provider.cpython-312.pyc
+[1.248s] byte-compiling /home/abhirup/slam_platform/install/ground_truth_provider/lib/python3.12/site-packages/ground_truth_provider/path_provider.py to path_provider.cpython-312.pyc
+[1.249s] running install_data
+[1.249s] creating /home/abhirup/slam_platform/install/ground_truth_provider/share/ament_index
+[1.249s] creating /home/abhirup/slam_platform/install/ground_truth_provider/share/ament_index/resource_index
+[1.249s] creating /home/abhirup/slam_platform/install/ground_truth_provider/share/ament_index/resource_index/packages
+[1.249s] copying resource/ground_truth_provider -> /home/abhirup/slam_platform/install/ground_truth_provider/share/ament_index/resource_index/packages
+[1.249s] copying package.xml -> /home/abhirup/slam_platform/install/ground_truth_provider/share/ground_truth_provider
+[1.249s] creating /home/abhirup/slam_platform/install/ground_truth_provider/share/ground_truth_provider/launch
+[1.249s] copying launch/ground_truth_provider.launch.py -> /home/abhirup/slam_platform/install/ground_truth_provider/share/ground_truth_provider/launch
+[1.249s] running install_egg_info
+[1.256s] Copying ../../../build/ground_truth_provider/ground_truth_provider.egg-info to /home/abhirup/slam_platform/install/ground_truth_provider/lib/python3.12/site-packages/ground_truth_provider-0.0.0-py3.12.egg-info
+[1.256s] running install_scripts
+[1.306s] Installing path_provider script to /home/abhirup/slam_platform/install/ground_truth_provider/lib/ground_truth_provider
+[1.306s] Installing pose_provider script to /home/abhirup/slam_platform/install/ground_truth_provider/lib/ground_truth_provider
+[1.306s] writing list of installed files to '/home/abhirup/slam_platform/build/ground_truth_provider/install.log'
+[1.321s] Invoked command in '/home/abhirup/slam_platform/slam_ws/src/ground_truth_provider' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/build/ground_truth_provider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/install/ground_truth_provider/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ground_truth_provider build --build-base /home/abhirup/slam_platform/build/ground_truth_provider/build install --record /home/abhirup/slam_platform/build/ground_truth_provider/install.log --single-version-externally-managed install_data

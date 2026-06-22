@@ -1,0 +1,19 @@
+[1.049s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/robot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/robot_bringup/build --no-deps symlink_data --force
+[1.204s] running develop
+[1.273s] running egg_info
+[1.281s] writing robot_bringup.egg-info/PKG-INFO
+[1.281s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[1.281s] writing requirements to robot_bringup.egg-info/requires.txt
+[1.281s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[1.295s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[1.295s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[1.302s] running build_ext
+[1.302s] Creating /home/abhirup/slam_platform/slam_ws/install/robot_bringup/lib/python3.12/site-packages/robot-bringup.egg-link (link to .)
+[1.302s] 
+[1.303s] Installed /home/abhirup/slam_platform/slam_ws/build/robot_bringup
+[1.303s] running symlink_data
+[1.303s] symbolically linking /home/abhirup/slam_platform/slam_ws/build/robot_bringup/resource/robot_bringup -> /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[1.303s] symbolically linking /home/abhirup/slam_platform/slam_ws/build/robot_bringup/package.xml -> /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup
+[1.303s] symbolically linking /home/abhirup/slam_platform/slam_ws/build/robot_bringup/launch/display_robot.launch.py -> /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup
+[1.303s] symbolically linking /home/abhirup/slam_platform/slam_ws/build/robot_bringup/launch/spawn_robot_gz.launch.py -> /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup
+[1.318s] Invoked command in '/home/abhirup/slam_platform/slam_ws/build/robot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/robot_bringup/build --no-deps symlink_data --force

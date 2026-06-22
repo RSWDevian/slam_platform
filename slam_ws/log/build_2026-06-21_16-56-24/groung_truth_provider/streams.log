@@ -1,0 +1,21 @@
+[0.966s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/groung_truth_provider': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/build --no-deps symlink_data
+[1.123s] running develop
+[1.189s] running egg_info
+[1.189s] creating groung_truth_provider.egg-info
+[1.195s] writing groung_truth_provider.egg-info/PKG-INFO
+[1.195s] writing dependency_links to groung_truth_provider.egg-info/dependency_links.txt
+[1.195s] writing requirements to groung_truth_provider.egg-info/requires.txt
+[1.195s] writing top-level names to groung_truth_provider.egg-info/top_level.txt
+[1.196s] writing manifest file 'groung_truth_provider.egg-info/SOURCES.txt'
+[1.209s] reading manifest file 'groung_truth_provider.egg-info/SOURCES.txt'
+[1.210s] writing manifest file 'groung_truth_provider.egg-info/SOURCES.txt'
+[1.217s] running build_ext
+[1.217s] Creating /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/lib/python3.12/site-packages/groung-truth-provider.egg-link (link to .)
+[1.217s] 
+[1.217s] Installed /home/abhirup/slam_platform/slam_ws/build/groung_truth_provider
+[1.217s] running symlink_data
+[1.218s] creating /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/share/ament_index
+[1.218s] creating /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/share/ament_index/resource_index
+[1.218s] creating /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/share/ament_index/resource_index/packages
+[1.218s] symbolically linking /home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/resource/groung_truth_provider -> /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/share/ament_index/resource_index/packages
+[1.218s] symbolically linking /home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/package.xml -> /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/share/groung_truth_provider

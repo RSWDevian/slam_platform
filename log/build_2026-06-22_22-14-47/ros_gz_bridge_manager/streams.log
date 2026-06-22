@@ -1,0 +1,33 @@
+[1.066s] Invoking command in '/home/abhirup/slam_platform/slam_ws/src/ros_gz_bridge_manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/build/ros_gz_bridge_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/install/ros_gz_bridge_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros_gz_bridge_manager build --build-base /home/abhirup/slam_platform/build/ros_gz_bridge_manager/build install --record /home/abhirup/slam_platform/build/ros_gz_bridge_manager/install.log --single-version-externally-managed install_data
+[1.173s] running egg_info
+[1.173s] creating ../../../build/ros_gz_bridge_manager/ros_gz_bridge_manager.egg-info
+[1.180s] writing ../../../build/ros_gz_bridge_manager/ros_gz_bridge_manager.egg-info/PKG-INFO
+[1.180s] writing dependency_links to ../../../build/ros_gz_bridge_manager/ros_gz_bridge_manager.egg-info/dependency_links.txt
+[1.180s] writing requirements to ../../../build/ros_gz_bridge_manager/ros_gz_bridge_manager.egg-info/requires.txt
+[1.180s] writing top-level names to ../../../build/ros_gz_bridge_manager/ros_gz_bridge_manager.egg-info/top_level.txt
+[1.180s] writing manifest file '../../../build/ros_gz_bridge_manager/ros_gz_bridge_manager.egg-info/SOURCES.txt'
+[1.192s] reading manifest file '../../../build/ros_gz_bridge_manager/ros_gz_bridge_manager.egg-info/SOURCES.txt'
+[1.193s] writing manifest file '../../../build/ros_gz_bridge_manager/ros_gz_bridge_manager.egg-info/SOURCES.txt'
+[1.193s] running build
+[1.193s] running build_py
+[1.193s] creating /home/abhirup/slam_platform/build/ros_gz_bridge_manager/build
+[1.193s] creating /home/abhirup/slam_platform/build/ros_gz_bridge_manager/build/lib
+[1.193s] creating /home/abhirup/slam_platform/build/ros_gz_bridge_manager/build/lib/ros_gz_bridge_manager
+[1.193s] copying ros_gz_bridge_manager/__init__.py -> /home/abhirup/slam_platform/build/ros_gz_bridge_manager/build/lib/ros_gz_bridge_manager
+[1.193s] running install
+[1.196s] running install_lib
+[1.203s] creating /home/abhirup/slam_platform/install/ros_gz_bridge_manager/lib/python3.12/site-packages/ros_gz_bridge_manager
+[1.203s] copying /home/abhirup/slam_platform/build/ros_gz_bridge_manager/build/lib/ros_gz_bridge_manager/__init__.py -> /home/abhirup/slam_platform/install/ros_gz_bridge_manager/lib/python3.12/site-packages/ros_gz_bridge_manager
+[1.203s] byte-compiling /home/abhirup/slam_platform/install/ros_gz_bridge_manager/lib/python3.12/site-packages/ros_gz_bridge_manager/__init__.py to __init__.cpython-312.pyc
+[1.203s] running install_data
+[1.203s] creating /home/abhirup/slam_platform/install/ros_gz_bridge_manager/share/ament_index
+[1.203s] creating /home/abhirup/slam_platform/install/ros_gz_bridge_manager/share/ament_index/resource_index
+[1.203s] creating /home/abhirup/slam_platform/install/ros_gz_bridge_manager/share/ament_index/resource_index/packages
+[1.204s] copying resource/ros_gz_bridge_manager -> /home/abhirup/slam_platform/install/ros_gz_bridge_manager/share/ament_index/resource_index/packages
+[1.204s] copying package.xml -> /home/abhirup/slam_platform/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager
+[1.204s] copying launch/bridge.launch.py -> /home/abhirup/slam_platform/install/ros_gz_bridge_manager/share/ros_gz_bridge_manager
+[1.204s] running install_egg_info
+[1.211s] Copying ../../../build/ros_gz_bridge_manager/ros_gz_bridge_manager.egg-info to /home/abhirup/slam_platform/install/ros_gz_bridge_manager/lib/python3.12/site-packages/ros_gz_bridge_manager-0.0.0-py3.12.egg-info
+[1.211s] running install_scripts
+[1.260s] writing list of installed files to '/home/abhirup/slam_platform/build/ros_gz_bridge_manager/install.log'
+[1.275s] Invoked command in '/home/abhirup/slam_platform/slam_ws/src/ros_gz_bridge_manager' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/build/ros_gz_bridge_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/install/ros_gz_bridge_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros_gz_bridge_manager build --build-base /home/abhirup/slam_platform/build/ros_gz_bridge_manager/build install --record /home/abhirup/slam_platform/build/ros_gz_bridge_manager/install.log --single-version-externally-managed install_data

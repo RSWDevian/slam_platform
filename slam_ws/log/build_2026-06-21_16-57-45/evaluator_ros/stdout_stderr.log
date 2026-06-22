@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing evaluator_ros.egg-info/PKG-INFO
+writing dependency_links to evaluator_ros.egg-info/dependency_links.txt
+writing requirements to evaluator_ros.egg-info/requires.txt
+writing top-level names to evaluator_ros.egg-info/top_level.txt
+reading manifest file 'evaluator_ros.egg-info/SOURCES.txt'
+writing manifest file 'evaluator_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abhirup/slam_platform/slam_ws/install/evaluator_ros/lib/python3.12/site-packages/evaluator-ros.egg-link (link to .)
+
+Installed /home/abhirup/slam_platform/slam_ws/build/evaluator_ros
+running symlink_data

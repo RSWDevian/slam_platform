@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing tf_manager.egg-info/PKG-INFO
+writing dependency_links to tf_manager.egg-info/dependency_links.txt
+writing requirements to tf_manager.egg-info/requires.txt
+writing top-level names to tf_manager.egg-info/top_level.txt
+reading manifest file 'tf_manager.egg-info/SOURCES.txt'
+writing manifest file 'tf_manager.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abhirup/slam_platform/slam_ws/install/tf_manager/lib/python3.12/site-packages/tf-manager.egg-link (link to .)
+
+Installed /home/abhirup/slam_platform/slam_ws/build/tf_manager
+running symlink_data
+symbolically linking /home/abhirup/slam_platform/slam_ws/build/tf_manager/resource/tf_manager -> /home/abhirup/slam_platform/slam_ws/install/tf_manager/share/ament_index/resource_index/packages
+symbolically linking /home/abhirup/slam_platform/slam_ws/build/tf_manager/package.xml -> /home/abhirup/slam_platform/slam_ws/install/tf_manager/share/tf_manager

@@ -1,0 +1,28 @@
+[0.467s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/slam_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abhirup/slam_platform/slam_ws/src/slam_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abhirup/slam_platform/slam_ws/install/slam_interfaces
+[0.558s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.601s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.653s] -- Configuring done (0.2s)
+[0.655s] -- Generating done (0.0s)
+[0.655s] -- Build files have been written to: /home/abhirup/slam_platform/slam_ws/build/slam_interfaces
+[0.661s] Invoked command in '/home/abhirup/slam_platform/slam_ws/build/slam_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abhirup/slam_platform/slam_ws/src/slam_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abhirup/slam_platform/slam_ws/install/slam_interfaces
+[0.661s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/slam_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abhirup/slam_platform/slam_ws/build/slam_interfaces -- -j28 -l28
+[0.688s] Invoked command in '/home/abhirup/slam_platform/slam_ws/build/slam_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abhirup/slam_platform/slam_ws/build/slam_interfaces -- -j28 -l28
+[0.694s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/slam_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abhirup/slam_platform/slam_ws/build/slam_interfaces
+[0.700s] -- Install configuration: ""
+[0.700s] -- Execute custom install script
+[0.700s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/ament_index/resource_index/package_run_dependencies/slam_interfaces
+[0.706s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/ament_index/resource_index/parent_prefix_path/slam_interfaces
+[0.713s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/environment/ament_prefix_path.sh
+[0.719s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/environment/ament_prefix_path.dsv
+[0.723s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/environment/path.sh
+[0.728s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/environment/path.dsv
+[0.734s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/local_setup.bash
+[0.740s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/local_setup.sh
+[0.746s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/local_setup.zsh
+[0.751s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/local_setup.dsv
+[0.756s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/package.dsv
+[0.763s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/ament_index/resource_index/packages/slam_interfaces
+[0.769s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/cmake/slam_interfacesConfig.cmake
+[0.775s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/cmake/slam_interfacesConfig-version.cmake
+[0.780s] -- Symlinking: /home/abhirup/slam_platform/slam_ws/install/slam_interfaces/share/slam_interfaces/package.xml
+[0.786s] Invoked command in '/home/abhirup/slam_platform/slam_ws/build/slam_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abhirup/slam_platform/slam_ws/build/slam_interfaces

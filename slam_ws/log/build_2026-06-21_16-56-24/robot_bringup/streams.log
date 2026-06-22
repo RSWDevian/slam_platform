@@ -1,0 +1,22 @@
+[0.966s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/robot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/robot_bringup/build --no-deps symlink_data
+[1.094s] running develop
+[1.159s] running egg_info
+[1.159s] creating robot_bringup.egg-info
+[1.165s] writing robot_bringup.egg-info/PKG-INFO
+[1.165s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[1.165s] writing requirements to robot_bringup.egg-info/requires.txt
+[1.165s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[1.165s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[1.177s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[1.178s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[1.184s] running build_ext
+[1.184s] Creating /home/abhirup/slam_platform/slam_ws/install/robot_bringup/lib/python3.12/site-packages/robot-bringup.egg-link (link to .)
+[1.185s] 
+[1.185s] Installed /home/abhirup/slam_platform/slam_ws/build/robot_bringup
+[1.185s] running symlink_data
+[1.185s] creating /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/ament_index
+[1.185s] creating /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/ament_index/resource_index
+[1.185s] creating /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[1.185s] symbolically linking /home/abhirup/slam_platform/slam_ws/build/robot_bringup/resource/robot_bringup -> /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[1.185s] symbolically linking /home/abhirup/slam_platform/slam_ws/build/robot_bringup/package.xml -> /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup
+[1.185s] symbolically linking /home/abhirup/slam_platform/slam_ws/build/robot_bringup/launch/display_robot.launch.py -> /home/abhirup/slam_platform/slam_ws/install/robot_bringup/share/robot_bringup

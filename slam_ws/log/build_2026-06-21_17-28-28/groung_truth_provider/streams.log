@@ -1,0 +1,15 @@
+[0.956s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/groung_truth_provider': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/build --no-deps symlink_data
+[1.091s] running develop
+[1.159s] running egg_info
+[1.165s] writing groung_truth_provider.egg-info/PKG-INFO
+[1.165s] writing dependency_links to groung_truth_provider.egg-info/dependency_links.txt
+[1.165s] writing requirements to groung_truth_provider.egg-info/requires.txt
+[1.165s] writing top-level names to groung_truth_provider.egg-info/top_level.txt
+[1.178s] reading manifest file 'groung_truth_provider.egg-info/SOURCES.txt'
+[1.178s] writing manifest file 'groung_truth_provider.egg-info/SOURCES.txt'
+[1.186s] running build_ext
+[1.186s] Creating /home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/lib/python3.12/site-packages/groung-truth-provider.egg-link (link to .)
+[1.186s] 
+[1.187s] Installed /home/abhirup/slam_platform/slam_ws/build/groung_truth_provider
+[1.187s] running symlink_data
+[1.214s] Invoked command in '/home/abhirup/slam_platform/slam_ws/build/groung_truth_provider' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/groung_truth_provider/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/groung_truth_provider/build --no-deps symlink_data

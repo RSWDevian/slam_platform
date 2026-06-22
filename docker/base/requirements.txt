@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+pandas
+psutil
+pyyaml
+hydra-core
+optuna
+ray
+evo

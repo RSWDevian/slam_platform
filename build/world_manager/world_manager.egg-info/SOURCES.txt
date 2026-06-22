@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/world_manager/world_manager.egg-info/PKG-INFO
+../../../build/world_manager/world_manager.egg-info/SOURCES.txt
+../../../build/world_manager/world_manager.egg-info/dependency_links.txt
+../../../build/world_manager/world_manager.egg-info/requires.txt
+../../../build/world_manager/world_manager.egg-info/top_level.txt
+../../../build/world_manager/world_manager.egg-info/zip-safe
+launch/test_world.launch.py
+resource/world_manager
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+world_manager/__init__.py

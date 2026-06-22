@@ -1,0 +1,15 @@
+[0.949s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/sensor_adapter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/sensor_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/sensor_adapter/build --no-deps symlink_data
+[1.081s] running develop
+[1.178s] running egg_info
+[1.187s] writing sensor_adapter.egg-info/PKG-INFO
+[1.187s] writing dependency_links to sensor_adapter.egg-info/dependency_links.txt
+[1.187s] writing requirements to sensor_adapter.egg-info/requires.txt
+[1.188s] writing top-level names to sensor_adapter.egg-info/top_level.txt
+[1.206s] reading manifest file 'sensor_adapter.egg-info/SOURCES.txt'
+[1.206s] writing manifest file 'sensor_adapter.egg-info/SOURCES.txt'
+[1.217s] running build_ext
+[1.217s] Creating /home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/python3.12/site-packages/sensor-adapter.egg-link (link to .)
+[1.218s] 
+[1.218s] Installed /home/abhirup/slam_platform/slam_ws/build/sensor_adapter
+[1.218s] running symlink_data
+[1.245s] Invoked command in '/home/abhirup/slam_platform/slam_ws/build/sensor_adapter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/sensor_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/sensor_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/sensor_adapter/build --no-deps symlink_data

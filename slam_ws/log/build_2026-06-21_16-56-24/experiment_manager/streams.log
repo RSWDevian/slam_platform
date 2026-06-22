@@ -1,0 +1,21 @@
+[0.972s] Invoking command in '/home/abhirup/slam_platform/slam_ws/build/experiment_manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhirup/slam_platform/slam_ws/build/experiment_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhirup/slam_platform/slam_ws/install/experiment_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abhirup/slam_platform/slam_ws/build/experiment_manager/build --no-deps symlink_data
+[1.100s] running develop
+[1.165s] running egg_info
+[1.165s] creating experiment_manager.egg-info
+[1.171s] writing experiment_manager.egg-info/PKG-INFO
+[1.172s] writing dependency_links to experiment_manager.egg-info/dependency_links.txt
+[1.172s] writing requirements to experiment_manager.egg-info/requires.txt
+[1.172s] writing top-level names to experiment_manager.egg-info/top_level.txt
+[1.172s] writing manifest file 'experiment_manager.egg-info/SOURCES.txt'
+[1.184s] reading manifest file 'experiment_manager.egg-info/SOURCES.txt'
+[1.184s] writing manifest file 'experiment_manager.egg-info/SOURCES.txt'
+[1.191s] running build_ext
+[1.192s] Creating /home/abhirup/slam_platform/slam_ws/install/experiment_manager/lib/python3.12/site-packages/experiment-manager.egg-link (link to .)
+[1.192s] 
+[1.192s] Installed /home/abhirup/slam_platform/slam_ws/build/experiment_manager
+[1.192s] running symlink_data
+[1.192s] creating /home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/ament_index
+[1.192s] creating /home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/ament_index/resource_index
+[1.192s] creating /home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/ament_index/resource_index/packages
+[1.193s] symbolically linking /home/abhirup/slam_platform/slam_ws/build/experiment_manager/resource/experiment_manager -> /home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/ament_index/resource_index/packages
+[1.193s] symbolically linking /home/abhirup/slam_platform/slam_ws/build/experiment_manager/package.xml -> /home/abhirup/slam_platform/slam_ws/install/experiment_manager/share/experiment_manager
