@@ -1,4 +1,0 @@
-[console_scripts]
-pose_comparator = evaluator_ros.pose_comparator:main
-resource_monitor = evaluator_ros.resource_monitor:main
-trajectory_evaluator = evaluator_ros.trajectory_evaluator:main

@@ -1,0 +1,37 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    image: slam_platform_dev
+    container_name: slam_platform
+    hostname: slam_platform
+    network_mode: host
+    ipc: host
+    priviledged: true
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    working_dir: /workspace
+
+    environment:
+      DISPLAY: ${DISPLAY}
+      ROS_DOMAIN_ID: ${ROS_DOMAIN_ID}
+      RMW_IMPLEMENTATION: ${RMW_IMPLEMENTATION}
+      QT_X11_NO_MITSHM: ${QT_X11_NO_MITSHM}
+      LIBGL_ALWAYS_INDIRECT: ${LIBGL_ALWAYS_INDIRECT}
+      NVIDIA_VISIBLE_DEVICES: ${NVIDIA_VISIBLE_DEVICES}
+      NVIDIA_DRIVER_CAPABILITIES: ${NVIDIA_DRIVER_CAPABILITIES}
+
+    volumes:
+      - /home/abhirup/slam_platform/slam_ws:/workspace/slam_ws
+      - /home/abhirup/slam_platform/plugin_ws:/workspace/plugin_ws
+      - /home/abhirup/slam_platform/datasets:/workspace/datasets
+      - /home/abhirup/slam_platform/scripts:/workspace/scripts
+      - /home/abhirup/slam_platform/results:/workspace/results
+      - /home/abhirup/slam_platform/logs:/workspace/logs
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - /dev:/dev
+
+    command: bash
