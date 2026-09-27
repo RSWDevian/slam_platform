@@ -2,14 +2,15 @@ services:
   dev:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: docker/Dockerfile
     
     image: slam_platform_dev
     container_name: slam_platform
+    gpus: all
     hostname: slam_platform
     network_mode: host
     ipc: host
-    priviledged: true
+    privileged: true
     stdin_open: true
     tty: true
     restart: unless-stopped
@@ -25,12 +26,12 @@ services:
       NVIDIA_DRIVER_CAPABILITIES: ${NVIDIA_DRIVER_CAPABILITIES}
 
     volumes:
-      - /home/abhirup/slam_platform/slam_ws:/workspace/slam_ws
-      - /home/abhirup/slam_platform/plugin_ws:/workspace/plugin_ws
-      - /home/abhirup/slam_platform/datasets:/workspace/datasets
-      - /home/abhirup/slam_platform/scripts:/workspace/scripts
-      - /home/abhirup/slam_platform/results:/workspace/results
-      - /home/abhirup/slam_platform/logs:/workspace/logs
+      - ./slam_ws:/workspace/slam_ws
+      - ./plugin_ws:/workspace/plugin_ws
+      - ./datasets:/workspace/datasets
+      - ./scripts:/workspace/scripts
+      - ./results:/workspace/results
+      - ./logs:/workspace/logs
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       - /dev:/dev
 

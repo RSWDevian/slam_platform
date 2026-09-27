@@ -7,4 +7,7 @@ This is a plugin based SLAM platform which is used to provided a modular and nea
 Clone the repository:
 `git clone https://github.com/RSWDevian/slam_platform.git`
 
-Once cloned, a full fledged docker development environment is setup, for the code execution and slam plugin implementation.
+Once cloned, a full fledged docker development environment is setup, for the code execution and slam plugin implementation. 
+Build thhe repository once: `docker compose build`
+Start the container: `docker compose up -d`
+Enter the container bash: `docker exec -it slam_platform bash`
