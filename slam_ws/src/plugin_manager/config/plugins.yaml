@@ -1,0 +1,34 @@
+# Registry of SLAM plugins that plugin_manager can discover and load.
+#
+# Each entry declares where a plugin's concrete implementation is expected to
+# live: `package` is the plugin_ws ROS package, `module` is the submodule
+# inside it (leave empty to import the package's __init__ directly), and
+# `class` is the SlamPlugin subclass plugin_manager will instantiate.
+#
+# None of these classes are implemented yet (plugin_ws packages are stubs),
+# so plugin_manager will report them as `not_implemented` until a real
+# SlamPlugin subclass matching the declared module/class exists.
+plugins:
+  - id: orb_slam3
+    package: orb_slam_plugin
+    module: orb_slam3_plugin
+    class: ORBSlam3Plugin
+    description: ORB-SLAM3 feature-based visual SLAM plugin.
+
+  - id: cnn_slam
+    package: cnn_slam_plugin
+    module: ""
+    class: CNNSlamPlugin
+    description: CNN-based learned SLAM plugin.
+
+  - id: rl_slam
+    package: rl_slam_plugin
+    module: ""
+    class: RLSlamPlugin
+    description: Reinforcement-learning-based SLAM plugin.
+
+  - id: slam_toolbox
+    package: slam_toolbox_plugin
+    module: ""
+    class: SlamToolboxPlugin
+    description: Wrapper around the ROS slam_toolbox package.
