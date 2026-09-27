@@ -4,10 +4,15 @@
 # live: `package` is the plugin_ws ROS package, `module` is the submodule
 # inside it (leave empty to import the package's __init__ directly), and
 # `class` is the SlamPlugin subclass plugin_manager will instantiate.
+# `config` (optional) is a path to the plugin's default config, resolved
+# relative to that plugin's own installed share directory; when present,
+# plugin_manager calls instance.initialize(node, config_path) after
+# instantiating it.
 #
-# None of these classes are implemented yet (plugin_ws packages are stubs),
-# so plugin_manager will report them as `not_implemented` until a real
-# SlamPlugin subclass matching the declared module/class exists.
+# orb_slam3, cnn_slam, and rl_slam are not implemented yet (plugin_ws
+# packages are stubs), so plugin_manager will report them as
+# `not_implemented` until a real SlamPlugin subclass matching the declared
+# module/class exists. slam_toolbox is implemented.
 plugins:
   - id: orb_slam3
     package: orb_slam_plugin
@@ -29,6 +34,7 @@ plugins:
 
   - id: slam_toolbox
     package: slam_toolbox_plugin
-    module: ""
+    module: slam_toolbox_plugin
     class: SlamToolboxPlugin
     description: Wrapper around the ROS slam_toolbox package.
+    config: config/slam_toolbox_params.yaml

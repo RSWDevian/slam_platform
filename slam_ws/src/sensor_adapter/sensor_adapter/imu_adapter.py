@@ -1,19 +1,19 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import Image
+from sensor_msgs.msg import Imu
 
 class ImuAdapter(Node):
     def __init__(self):
         super().__init__('imu_adapter')
 
         self.publisher = self.create_publisher(
-            Image,
+            Imu,
             "/slam/imu/data",
             10
         )
 
         self.subscription = self.create_subscription(
-            Image,
+            Imu,
             "/imu/data",
             self.callback,
             10

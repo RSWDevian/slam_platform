@@ -1,19 +1,19 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import Image
+from sensor_msgs.msg import LaserScan
 
 class LidarAdapter(Node):
     def __init__(self):
         super().__init__('lidar_adapter')
 
         self.publisher = self.create_publisher(
-            Image,
+            LaserScan,
             "/slam/lidar/scan",
             10
         )
 
         self.subscription = self.create_subscription(
-            Image,
+            LaserScan,
             "/scan",
             self.callback,
             10

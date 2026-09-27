@@ -13,4 +13,9 @@ def generate_launch_description():
             package="ground_truth_provider",
             executable="path_provider"
         ),
+
+        Node(
+            package="ground_truth_provider",
+            executable="odom_provider"
+        ),
     ])

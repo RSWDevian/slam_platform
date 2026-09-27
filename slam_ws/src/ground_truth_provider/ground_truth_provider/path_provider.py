@@ -15,7 +15,7 @@ class PathProvider(Node):
         )
 
         self.subscription = self.create_subscription(
-            Path,
+            PoseStamped,
             '/ground_truth/pose',
             self.callback,
             10

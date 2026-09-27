@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'ground_truth_provider'
+package_name = 'slam_plugin_base'
 
 setup(
     name=package_name,
@@ -10,13 +10,12 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/ground_truth_provider.launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='abhirup',
     maintainer_email='pingking29705@gmail.com',
-    description='TODO: Package description',
+    description='Abstract base class shared by every SLAM plugin package.',
     license='TODO: License declaration',
     extras_require={
         'test': [
@@ -25,9 +24,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'pose_provider = ground_truth_provider.pose_provider:main',
-            'path_provider = ground_truth_provider.path_provider:main',
-            'odom_provider = ground_truth_provider.odom_provider:main',
         ],
     },
 )

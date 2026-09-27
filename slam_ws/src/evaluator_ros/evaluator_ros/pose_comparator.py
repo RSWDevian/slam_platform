@@ -10,14 +10,14 @@ class PoseComparator(Node):
         self.gt_pose = None
         self.slam_pose = None
 
-        self.gt_pose = self.create_subscription(
+        self.gt_pose_sub = self.create_subscription(
             PoseStamped,
             "/ground_truth/pose",
             self.gt_callback,
             10
         )
 
-        self.slam_pose = self.create_subscription(
+        self.slam_pose_sub = self.create_subscription(
             PoseStamped,
             "/slam_output/pose",
             self.slam_callback,
@@ -63,7 +63,7 @@ class PoseComparator(Node):
         dz = self.gt_pose.pose.position.z - self.slam_pose.pose.position.z
         error = math.sqrt(dx*dx + dy*dy + dz*dz)
         msg = Float64()
-        msg.ddata = error
+        msg.data = error
         self.position_error_pub.publish(msg)
     
     def compute_orientation_error(self):

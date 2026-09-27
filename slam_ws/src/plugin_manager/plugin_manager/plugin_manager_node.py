@@ -8,8 +8,8 @@ from rclpy.node import Node
 from std_msgs.msg import String
 
 from plugin_manager.plugin_loader import PluginLoader
-from plugin_manager.plugin_registry import PluginRegistry
-from plugin_manager.plugin_status import PluginState
+from plugin_manager.plugin_registry import PluginDeclaration, PluginRegistry
+from plugin_manager.plugin_status import PluginState, PluginStatus
 
 
 class PluginManagerNode(Node):
@@ -51,12 +51,50 @@ class PluginManagerNode(Node):
             return
 
         instance, state = self._loader.load(declaration)
-        self._states[plugin_id] = state
-        if instance is not None:
-            self._instances[plugin_id] = instance
-            self.get_logger().info(f"Plugin '{plugin_id}' loaded: {state.message}")
-        else:
+        if instance is None:
+            self._states[plugin_id] = state
             self.get_logger().warn(f"Plugin '{plugin_id}' not loaded: {state.message}")
+            return
+
+        config_path = self._resolve_config_path(declaration)
+        try:
+            initialized = instance.initialize(self, config_path)
+        except Exception as exc:
+            state.status = PluginStatus.LOAD_ERROR
+            state.message = f"initialize() raised: {exc}"
+            self._states[plugin_id] = state
+            self.get_logger().error(f"Plugin '{plugin_id}' failed to initialize: {exc}")
+            return
+
+        if not initialized:
+            state.status = PluginStatus.LOAD_ERROR
+            state.message = f"initialize() failed: {getattr(instance, 'status', 'unknown error')}"
+            self._states[plugin_id] = state
+            self.get_logger().warn(f"Plugin '{plugin_id}' failed to initialize: {state.message}")
+            return
+
+        self._instances[plugin_id] = instance
+        self._states[plugin_id] = state
+        self.get_logger().info(f"Plugin '{plugin_id}' loaded and initialized: {state.message}")
+
+    def _resolve_config_path(self, declaration: PluginDeclaration) -> str:
+        if not declaration.config:
+            return ""
+        try:
+            share_dir = get_package_share_directory(declaration.package)
+        except Exception as exc:
+            self.get_logger().warn(
+                f"Could not resolve share directory for '{declaration.package}': {exc}"
+            )
+            return declaration.config
+        return str(Path(share_dir) / declaration.config)
+
+    def shutdown_plugins(self) -> None:
+        for plugin_id, instance in self._instances.items():
+            try:
+                instance.shutdown()
+            except Exception as exc:
+                self.get_logger().warn(f"Error shutting down plugin '{plugin_id}': {exc}")
 
     def _on_command(self, msg: String) -> None:
         command, _, plugin_id = msg.data.partition(":")
@@ -83,6 +121,7 @@ def main(args=None):
     except (KeyboardInterrupt, rclpy.executors.ExternalShutdownException):
         pass
     finally:
+        node.shutdown_plugins()
         node.destroy_node()
         if rclpy.ok():
             rclpy.shutdown()

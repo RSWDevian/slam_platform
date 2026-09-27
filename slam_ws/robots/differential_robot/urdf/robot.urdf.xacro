@@ -372,6 +372,7 @@
             <update_rate>10</update_rate>
             <visualize>true</visualize>
             <topic>/scan</topic>
+            <gz_frame_id>lidar_link</gz_frame_id>
             <ray>
                 <scan>
                     <horizontal>

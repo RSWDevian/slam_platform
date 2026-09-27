@@ -1,19 +1,19 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import Image
+from sensor_msgs.msg import CameraInfo
 
 class CameraInfoAdapter(Node):
     def __init__(self):
         super().__init__('camera_info_adapter')
 
         self.publisher = self.create_publisher(
-            Image,
+            CameraInfo,
             "/slam/camera/camera_info",
             10
         )
 
         self.subscription = self.create_subscription(
-            Image,
+            CameraInfo,
             "/camera/camera_info",
             self.callback,
             10

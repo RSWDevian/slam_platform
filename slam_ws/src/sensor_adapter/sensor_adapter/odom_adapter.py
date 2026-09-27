@@ -1,19 +1,19 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import Image
+from nav_msgs.msg import Odometry
 
 class OdomAdapter(Node):
     def __init__(self):
         super().__init__('odom_adapter')
 
         self.publisher = self.create_publisher(
-            Image,
+            Odometry,
             "/slam/odom",
             10
         )
 
         self.subscription = self.create_subscription(
-            Image,
+            Odometry,
             "/odom",
             self.callback,
             10

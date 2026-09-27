@@ -1,7 +1,13 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import PoseStamped
-from tf2_ros import Buffer, TransformListener
+from tf2_ros import (
+    Buffer,
+    ConnectivityException,
+    ExtrapolationException,
+    LookupException,
+    TransformListener,
+)
 
 class PoseProvider(Node):
     def __init__(self):
@@ -30,8 +36,11 @@ class PoseProvider(Node):
 
             self.publisher.publish(msg)
 
-        except Exception as e:
-            pass
+        except (LookupException, ConnectivityException, ExtrapolationException) as e:
+            self.get_logger().warn(
+                f"Could not look up odom -> base_link transform: {e}",
+                throttle_duration_sec=5.0,
+            )
 
 def main(args=None):
     rclpy.init(args=args)

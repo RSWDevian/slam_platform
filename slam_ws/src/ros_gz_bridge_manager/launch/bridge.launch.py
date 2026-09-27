@@ -57,11 +57,21 @@ def generate_launch_description():
     output='screen'
 )
 
+    tf_bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        arguments=[
+            '/tf@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V'
+        ],
+        output='screen'
+    )
+
     return LaunchDescription([
         camera_bridge,
         camera_info_bridge,
         lidar_bridge,
         imu_bridge,
         cmd_vel_bridge,
-        cmd_odom_bridge
+        cmd_odom_bridge,
+        tf_bridge
     ])

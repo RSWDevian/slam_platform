@@ -26,7 +26,8 @@ ros-jazzy-ros-gz \
 ros-jazzy-rviz2 \
 ros-jazzy-rqt \
 ros-jazzy-rqt-image-view \
-ros-jazzy-rqt-graph
+ros-jazzy-rqt-graph \
+ros-jazzy-slam-toolbox
 
 RUN apt install -y \
 libopencv-dev \

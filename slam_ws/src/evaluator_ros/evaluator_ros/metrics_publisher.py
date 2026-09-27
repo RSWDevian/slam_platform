@@ -100,7 +100,7 @@ class MetricsPublisher(Node):
         self.metrics.runtime = msg.data
 
     def num_threads_callback(self, msg):
-        self.metrics.num_threads = msg.data
+        self.metrics.thread_count = msg.data
 
     #~ Publish Metrics
     def publish_metrics(self):

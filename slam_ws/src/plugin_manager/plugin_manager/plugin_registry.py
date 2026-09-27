@@ -13,6 +13,7 @@ class PluginDeclaration:
     module: str
     class_name: str
     description: str = ""
+    config: str = ""
 
     @property
     def module_path(self) -> str:
@@ -43,6 +44,7 @@ class PluginRegistry:
                     module=entry.get("module", ""),
                     class_name=entry["class"],
                     description=entry.get("description", ""),
+                    config=entry.get("config", ""),
                 )
             )
         return registry
