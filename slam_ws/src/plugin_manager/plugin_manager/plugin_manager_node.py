@@ -4,6 +4,7 @@ from pathlib import Path
 
 import rclpy
 from ament_index_python.packages import get_package_share_directory
+from geometry_msgs.msg import PoseStamped
 from rclpy.node import Node
 from std_msgs.msg import String
 
@@ -30,10 +31,13 @@ class PluginManagerNode(Node):
             plugin_id: PluginState(plugin_id=plugin_id) for plugin_id in self._registry.list_ids()
         }
         self._instances = {}
+        self._active_plugin_id = None
 
         self._status_pub = self.create_publisher(String, "~/plugin_status", 10)
+        self._slam_pose_pub = self.create_publisher(PoseStamped, "/slam_output/pose", 10)
         self.create_subscription(String, "~/plugin_command", self._on_command, 10)
         self.create_timer(2.0, self._publish_status)
+        self.create_timer(0.1, self._publish_slam_pose)
 
         self.get_logger().info(
             f"Discovered {len(self._registry.list_ids())} plugin(s): "
@@ -75,6 +79,7 @@ class PluginManagerNode(Node):
 
         self._instances[plugin_id] = instance
         self._states[plugin_id] = state
+        self._active_plugin_id = plugin_id
         self.get_logger().info(f"Plugin '{plugin_id}' loaded and initialized: {state.message}")
 
     def _resolve_config_path(self, declaration: PluginDeclaration) -> str:
@@ -105,6 +110,30 @@ class PluginManagerNode(Node):
             self._load_plugin(plugin_id)
         else:
             self.get_logger().warn(f"Unknown plugin command '{command}'")
+
+    def _publish_slam_pose(self) -> None:
+        if self._active_plugin_id is None:
+            return
+        instance = self._instances.get(self._active_plugin_id)
+        if instance is None:
+            return
+
+        try:
+            pose = instance.get_current_pose()
+        except Exception as exc:
+            self.get_logger().warn(
+                f"get_current_pose() raised for '{self._active_plugin_id}': {exc}",
+                throttle_duration_sec=5.0,
+            )
+            return
+
+        if pose is None:
+            return
+
+        msg = PoseStamped()
+        msg.header = pose.header
+        msg.pose = pose.pose.pose
+        self._slam_pose_pub.publish(msg)
 
     def _publish_status(self) -> None:
         payload = {plugin_id: state.to_dict() for plugin_id, state in self._states.items()}
