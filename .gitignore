@@ -6,6 +6,7 @@
 build/
 install/
 log/
+__pycache__/
 /plugin_ws/build/
 /slam_ws/install/
 /plugin_ws/install/

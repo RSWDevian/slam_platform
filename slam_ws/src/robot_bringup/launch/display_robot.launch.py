@@ -1,17 +1,14 @@
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
-from launch.substitutions import Command
-from launch.substitutions import PathJoinSubstitution
-
-from launch_ros.substitutions import FindPackageShare
-from pathlib import Path
+from launch.substitutions import Command, EnvironmentVariable, PathJoinSubstitution
 
 def generate_launch_description():
 
-    worksppace_root = Path.cwd()
-
-    robot_file = (worksppace_root / "robots" / "differential_robot" / "urdf" / "robot.urdf.xacro")
+    robot_file = PathJoinSubstitution([
+        EnvironmentVariable('WORKSPACE', default_value='/workspace'),
+        'slam_ws', 'robots', 'differential_robot', 'urdf', 'robot.urdf.xacro',
+    ])
 
     robot_description = {
         "robot_description": Command(

@@ -10,6 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch', ['launch/tf_manager.launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -24,6 +25,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'tf_manager_node = tf_manager.tf_manager_node:main',
         ],
     },
 )
