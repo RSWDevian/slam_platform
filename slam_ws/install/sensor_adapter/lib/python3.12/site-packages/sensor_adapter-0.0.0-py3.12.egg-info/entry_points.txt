@@ -1,6 +1,0 @@
-[console_scripts]
-camera_adapter = sensor_adapter.camera_adapter:main
-camera_info_adapter = sensor_adapter.camera_info_adapter:main
-imu_adapter = sensor_adapter.imu_adapter:main
-lidar_adapter = sensor_adapter.lidar_adapter:main
-odom_adapter = sensor_adapter.odom_adapter:main

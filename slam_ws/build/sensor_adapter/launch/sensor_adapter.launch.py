@@ -1,1 +1,0 @@
-/home/abhirup/slam_platform/slam_ws/src/sensor_adapter/launch/sensor_adapter.launch.py

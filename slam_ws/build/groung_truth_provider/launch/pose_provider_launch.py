@@ -1,1 +1,0 @@
-/home/abhirup/slam_platform/slam_ws/src/groung_truth_provider/launch/pose_provider_launch.py

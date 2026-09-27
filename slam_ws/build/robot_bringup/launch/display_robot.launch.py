@@ -1,1 +1,0 @@
-/home/abhirup/slam_platform/slam_ws/src/robot_bringup/launch/display_robot.launch.py

@@ -1,0 +1,15 @@
+.env
+.workspace
+.vscode
+.idea
+
+build/
+install/
+log/
+/plugin_ws/build/
+/slam_ws/install/
+/plugin_ws/install/
+/slam_ws/CMakeFiles/
+/plugin_ws/CMakeFiles/
+/slam_ws/log/
+/plugin_ws/log/

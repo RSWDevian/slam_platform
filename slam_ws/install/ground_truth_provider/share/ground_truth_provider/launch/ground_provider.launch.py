@@ -1,1 +1,0 @@
-/home/abhirup/slam_platform/slam_ws/build/ground_truth_provider/launch/ground_provider.launch.py

@@ -1,1 +1,0 @@
-/home/abhirup/slam_platform/slam_ws/src/robot_bringup/launch/spawn_robot_gz.launch.py

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/abhirup/slam_platform/slam_ws/build/slam_interfaces/rosidl_generator_py/slam_interfaces/slam_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "slam_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/slam_interfaces")

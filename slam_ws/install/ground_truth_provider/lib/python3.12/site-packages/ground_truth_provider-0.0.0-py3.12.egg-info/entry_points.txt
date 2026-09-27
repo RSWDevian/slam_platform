@@ -1,3 +1,0 @@
-[console_scripts]
-path_provider = ground_truth_provider.path_provider:main
-pose_provider = ground_truth_provider.pose_provider:main

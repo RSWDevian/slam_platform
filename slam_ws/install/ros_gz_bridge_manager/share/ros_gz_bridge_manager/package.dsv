@@ -1,6 +1,0 @@
-source;share/ros_gz_bridge_manager/hook/pythonpath.ps1
-source;share/ros_gz_bridge_manager/hook/pythonpath.dsv
-source;share/ros_gz_bridge_manager/hook/pythonpath.sh
-source;share/ros_gz_bridge_manager/hook/ament_prefix_path.ps1
-source;share/ros_gz_bridge_manager/hook/ament_prefix_path.dsv
-source;share/ros_gz_bridge_manager/hook/ament_prefix_path.sh
