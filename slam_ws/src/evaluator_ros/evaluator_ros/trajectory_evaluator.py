@@ -73,11 +73,12 @@ class TrajectoryEvaluator(Node):
             dz = gt[2] - slam[2]
 
             squared_error_sum += dx*dx + dy*dy + dz*dz
-            ate = math.sqrt(squared_error_sum/n)
-            msg = Float64()
-            msg.data = ate
-            self.ate_pub.publish(msg)
-            self.get_logger().info(f"ATE: {ate:.4f}")
+
+        ate = math.sqrt(squared_error_sum/n)
+        msg = Float64()
+        msg.data = ate
+        self.ate_pub.publish(msg)
+        self.get_logger().info(f"ATE: {ate:.4f}")
 
 def main(args=None):
     rclpy.init(args=args)

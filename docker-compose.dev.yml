@@ -1,32 +1,5 @@
-version: '3.9'
 services:
   dev:
-    build:
-      context: .
-      dockerfile: docker/dev/Dockerfile
-
-    image: slam-platform-dev
-
-    container-name: slam_dev
-
-    network-mode: host
-
-    priviledged: true
-
-    stdin_open: true
-
-    tty: true
-
-    environment:
-      DISPLAY: ${DISPLAY}
-      QT_X11_NO_MITSHM: 1
-      ROS_DOMAIN_ID: ${ROS_DOMAIN_ID}
-      RMW_IMPLEMENTATION: ${RMW_IMPLEMENTATION}
-      NVIDIA_VISIBLE_DEVICES: ${NVIDIA_VISIBLE_DEVICES}
-      NVIDIA_DRIVER_CAPABILITIES: ${NVIDIA_DRIVER_CAPABILITIES}
-
     volumes:
-      - .slam_platform:/home/abhirup/slam_platform
-
-    working_dir: /home/abhirup/slam_platform
-    command: bash
+      - ${HOME}/.gitconfig:/root/.gitconfig:ro
+      - ${HOME}/.ssh:/root/.ssh:ro

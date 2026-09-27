@@ -1,0 +1,8 @@
+services:
+  dev:
+    command: scripts/run_benchmark.sh
+    environment:
+      BENCHMARK_WORLD: ${BENCHMARK_WORLD:-test_world}
+      BENCHMARK_PLUGIN: ${BENCHMARK_PLUGIN:-slam_toolbox}
+      BENCHMARK_DURATION: ${BENCHMARK_DURATION:-60.0}
+    restart: "no"
