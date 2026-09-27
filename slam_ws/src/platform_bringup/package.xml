@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>platform_bringup</name>
+  <version>0.0.0</version>
+  <description>Top-level launch file composing the full SLAM platform stack: world, robot, ROS-Gazebo bridge, ground truth, TF health check, evaluator, and plugin manager.</description>
+  <maintainer email="pingking29705@gmail.com">abhirup</maintainer>
+  <license>TODO: License declaration</license>
+
+  <exec_depend>world_manager</exec_depend>
+  <exec_depend>robot_bringup</exec_depend>
+  <exec_depend>ros_gz_bridge_manager</exec_depend>
+  <exec_depend>ground_truth_provider</exec_depend>
+  <exec_depend>tf_manager</exec_depend>
+  <exec_depend>evaluator_ros</exec_depend>
+  <exec_depend>plugin_manager</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
